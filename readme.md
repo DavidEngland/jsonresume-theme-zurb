@@ -5,5 +5,5 @@ Lot of JSONresume themes out there using bootsrtap, thought I would try one with
 Still lot of work to do before it is a proper jsonresume-theme.
 
 ## TO DO
-- [ ] Transform to traditional JSON Resume theme build ... index.js ...
-- [ ] Use CDN instead of stylesheets/js linked to dist/assets
+- [x] Transform to traditional JSON Resume theme build ... index.js ...
+- [x] Use CDN instead of stylesheets/js linked to dist/assets

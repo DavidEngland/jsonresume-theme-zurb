@@ -1,0 +1,1050 @@
+<!--
+  This awesome resume was created by David England with the JSON resume schema: https://jsonresume.org/
+  It uses the Foundation Zurb theme: https://github.com/DavidEngland/jsonresume-theme-zurb.git
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David England</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,400i,700,700i" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <style>
+        @charset "utf-8";
+.icon-button {
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem; }
+  .icon-button span {
+    display: block;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all 0.3s; }
+  .icon-button:hover span {
+    display: block;
+    border-radius: 3.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: -1.8rem; }
+  .icon-button i {
+    background: none;
+    height: 3.6rem;
+    width: 3.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    line-height: 3.6rem;
+    transition: all 0.3s; }
+
+.twitter span {
+  background-color: #4099ff; }
+
+.facebook span {
+  background-color: #3B5998; }
+
+.github span {
+  background-color: #4183C4; }
+
+.google-plus span {
+  background-color: #db5a3c; }
+
+.linkedin span {
+  background-color: #007bb6; }
+
+.icon-button .fi-social-twitter {
+  color: #4099ff; }
+
+.icon-button .fi-social-facebook {
+  color: #3b5998; }
+
+.icon-button .fi-social-github {
+  color: #4183C4; }
+
+.icon-button .fi-social-google-plus {
+  color: #db5a3c; }
+
+.icon-button .fi-social-linkedin {
+  color: #007bb6; }
+
+.icon-button:hover .fi-social-facebook,
+.icon-button:hover .fi-social-github,
+.icon-button:hover .fi-social-google-plus,
+.icon-button:hover .fi-social-linkedin,
+.icon-button:hover .fi-social-twitter {
+  color: white;
+  font-size: 2.6rem;
+  line-height: 3.9rem; }
+
+.header {
+  background: #8a8a8a; }
+  .header .columns {
+    padding-bottom: 0; }
+  .header p {
+    color: #ffffff;
+    padding-top: 15px; }
+  .header .wrapper-inner {
+    padding: 20px; }
+  .header .container {
+    background: transparent; }
+
+a[href^="mailto:"]:before {
+  content: "\1F4E7 "; }
+
+.website:before {
+  content: "\1F517"; }
+
+a[href^="tel:"]:before {
+  content: "\1F4F1"; }
+
+.important:before {
+  content: "\27BE"; }
+
+blockquote:before {
+  content: "\275D"; }
+
+blockquote:after {
+  content: "\275E"; }
+
+.alert:before {
+  content: "\26A0"; }
+
+#education .gpa .value {
+  font-weight: 700; }
+
+#languages .fluency {
+  font-style: italic; }
+
+#location .postalCode {
+  font-weight: 700; }
+
+#publications {
+  page-break-before: always; }
+  #publications .publisher {
+    font-style: italic; }
+  #publications .releaseDate {
+    font-weight: 700; }
+
+#work .position {
+  font-weight: 700; }
+
+#references cite {
+  float: right; }
+
+a[href^="http:://twitter.com"]:before {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  content: "\1F426"; }
+
+.wrapper.secondary {
+  background: #f3f3f3; }
+
+.copywrite {
+  font-size: smaller; }
+
+.dates {
+  text-align: right; }
+
+@media only screen and (max-width: 40em) {
+  .dates {
+    text-align: left; } }
+
+.button .Twitter {
+  background: #00aced !important;
+  background-color: #00aced; }
+
+.button .Facebook {
+  background: #3b5998 !important;
+  background-color: #3b5998; }
+
+.button .google-plus {
+  background: #dd4b39 !important;
+  background-color: #dd4b39; }
+
+.button .Pinterest {
+  background: #cb2027 !important;
+  background-color: #cb2027; }
+
+.button .LinkedIn {
+  background: #007bb6 !important;
+  background-color: #007bb6; }
+
+.button .YouTube {
+  background: #bb0000 !important;
+  background-color: #bb0000; }
+
+.button .Vimeo {
+  background: #aad450 !important;
+  background-color: #aad450; }
+
+.button .Tumblr {
+  background: #32506d !important;
+  background-color: #32506d; }
+
+.button .InstaGram {
+  background: #517fa4 !important;
+  background-color: #517fa4; }
+
+.button .Flickr {
+  background: #ff0084 !important;
+  background-color: #ff0084; }
+
+.button .Dribbble {
+  background: #ea4c89 !important;
+  background-color: #ea4c89; }
+
+.button .Quora {
+  background: #a82400 !important;
+  background-color: #a82400; }
+
+.button .FourSquare {
+  background: #0072b1 !important;
+  background-color: #0072b1; }
+
+.button .Forrst {
+  background: #5B9A68 !important;
+  background-color: #5B9A68; }
+
+.button .vk {
+  background: #45668e !important;
+  background-color: #45668e; }
+
+.button .WordPress {
+  background: #21759b !important;
+  background-color: #21759b; }
+
+.button .StumbleUpon {
+  background: #EB4823 !important;
+  background-color: #EB4823; }
+
+.button .Yahoo {
+  background: #7B0099 !important;
+  background-color: #7B0099; }
+
+.button .Blogger {
+  background: #fb8f3d !important;
+  background-color: #fb8f3d; }
+
+.button .SoundCloud {
+  background: #ff3a00 !important;
+  background-color: #ff3a00; }
+
+.callout-card {
+  background: #fff;
+  border: 1px solid #333;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  overflow: hidden; }
+  .callout-card .card-label {
+    border-color: transparent #333 transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #333 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.primary {
+    border-color: #446CB3; }
+    .callout-card.primary .card-label {
+      border-color: transparent #446CB3 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #446CB3 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.Advanced {
+    border-color: #446CB3; }
+    .callout-card.Advanced .card-label {
+      border-color: transparent #446CB3 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #446CB3 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.secondary {
+    border-color: #ADB2BD; }
+    .callout-card.secondary .card-label {
+      border-color: transparent #ADB2BD transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #ADB2BD rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.info {
+    border-color: #89c4f4; }
+    .callout-card.info .card-label {
+      border-color: transparent #89c4f4 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #89c4f4 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.alert {
+    border-color: #F22613; }
+    .callout-card.alert .card-label {
+      border-color: transparent #F22613 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #F22613 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.success {
+    border-color: #87D37C; }
+    .callout-card.success .card-label {
+      border-color: transparent #87D37C transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #87D37C rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.Master {
+    border-color: #87D37C; }
+    .callout-card.Master .card-label {
+      border-color: transparent #87D37C transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #87D37C rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.warning {
+    border-color: #F89406; }
+    .callout-card.warning .card-label {
+      border-color: transparent #F89406 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #F89406 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card .card-label {
+    border-style: solid;
+    border-width: 0 70px 40px 0;
+    float: right;
+    height: 0;
+    width: 0;
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg); }
+  .callout-card .callout-card-content {
+    padding: 0.5rem 1.5rem 0.875rem; }
+  .callout-card.radius {
+    border-radius: 0.6rem; }
+  .callout-card .label-text {
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: bold;
+    position: relative;
+    right: -30px;
+    top: 2px;
+    white-space: nowrap;
+    -ms-transform: rotate(30deg);
+        transform: rotate(30deg); }
+
+body {
+  font-family: "Titillium Web", "Open Sans", sans-serif; }
+
+    </style>
+</head>
+
+<body>
+    <div class="column row">
+        <div id="resume" itemscope itemtype="http://schema.org/Person">
+                <div class="row">
+                    <div class="columns">
+                        <h1 itemprop="name">David England</h1>
+                        <h2>Available for Hire</h2>
+                    </div>
+                </div>
+                <div class="row">
+                        <!-- <div class="row"> -->
+                        <div class="small-12 medium-6 large-6 columns">
+                            <div id="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="callout-card radius">
+                                <div class="callout-card-content">
+                                        <div itemprop="streetAddress" class="address">
+                                            412 W Tennessee St.
+                                        </div>
+                                        <span itemprop="addressLocality" class="city">Collinwood,&nbsp;</span>
+                                        <span itemprop="addressRegion" class="region">TN</span>
+                                        <span itemprop="postalCode" class="postalCode">&nbsp;&nbsp;38450</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    <div class="small-12 medium-6 large-6 columns">
+                        <div id="basics" class="callout-card radius">
+                            <div class="contact callout-card-content">
+                                    <div class="website">
+                                        <a href="http://about.me/DavidEngland" target="_blank" itemprop="url">&nbsp;http://about.me/DavidEngland</a>
+                                    </div>
+                                    <div class="email">
+                                        <a href="mailto:DavidEEngland@Outlook.com" itemprop="email">&nbsp;DavidEEngland@Outlook.com</a>
+                                    </div>
+                                    <div class="phone">
+                                        <a href="tel://(931) 332-6747" class="link-disguise info" itemprop="telephone">&nbsp;(931) 332-6747</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div id="profiles">
+                                    <a href="https://www.linkedin.com/in/davidengland" class="icon-button linkedin" target="_blank"><i class="fi-social-linkedin"></i><span></span></a>
+                                    <a href="https://www.facebook.com/DavidEEngland" class="icon-button facebook" target="_blank"><i class="fi-social-facebook"></i><span></span></a>
+                                    <a href="https://plus.google.com/u/0/+DavidEngland/" class="icon-button google-plus" target="_blank"><i class="fi-social-google-plus"></i><span></span></a>
+                                    <a href="http://twitter.com/DavidEEngland" class="icon-button twitter" target="_blank"><i class="fi-social-twitter"></i><span></span></a>
+                                    <a href="https://github.com/DavidEngland" class="icon-button github" target="_blank"><i class="fi-social-github"></i><span></span></a>
+                        </div>
+                    </div>
+                <div id="skills">
+                    <h2>Skills</h2>
+                    <div class="row">
+                            <div class="medium-6 large-3 columns">
+                                <div class="callout-card  radius">
+                                        <div class="callout-card-content">
+                                                <h3 class="text-center name">
+                                                Concepts
+                                            </h3>
+                                            <ul class="keywords">
+                                                    <li>Physics</li>
+                                                    <li>Analysis</li>
+                                                    <li>Statistics</li>
+                                                    <li>Theory</li>
+                                                    <li>Research</li>
+                                                    <li>Algorithms</li>
+                                                    <li>Mathematical Modeling</li>
+                                                    <li>TroubleShooting</li>
+                                                    <li>Problem Solving</li>
+                                                    <li>OOP</li>
+                                                    <li>REST</li>
+                                                    <li>SEO</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-6 large-3 columns">
+                                <div class="callout-card Advanced radius">
+                                        <div class="card-label">
+                                            <div class="label-text">Advanced</div>
+                                        </div>
+                                        <div class="callout-card-content">
+                                                <h3 class="text-center name">
+                                                Web Development
+                                            </h3>
+                                            <ul class="keywords">
+                                                    <li>HTML</li>
+                                                    <li>JavaScript</li>
+                                                    <li>CSS</li>
+                                                    <li>jQuery</li>
+                                                    <li>Bootstrap</li>
+                                                    <li>Bower</li>
+                                                    <li>npm</li>
+                                                    <li>Grunt</li>
+                                                    <li>Gulp</li>
+                                                    <li>Node.js</li>
+                                                    <li>Apache</li>
+                                                    <li>MySQL</li>
+                                                    <li>PHP</li>
+                                                    <li>XML</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-6 large-3 columns">
+                                <div class="callout-card Master radius">
+                                        <div class="card-label">
+                                            <div class="label-text">Master</div>
+                                        </div>
+                                        <div class="callout-card-content">
+                                                <h3 class="text-center name">
+                                                Operating Systems
+                                            </h3>
+                                            <ul class="keywords">
+                                                    <li>Microsoft Windows</li>
+                                                    <li>Linux</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-6 large-3 columns">
+                                <div class="callout-card Advanced radius">
+                                        <div class="card-label">
+                                            <div class="label-text">Advanced</div>
+                                        </div>
+                                        <div class="callout-card-content">
+                                                <h3 class="text-center name">
+                                                Software
+                                            </h3>
+                                            <ul class="keywords">
+                                                    <li>WordPress</li>
+                                                    <li>LaTex</li>
+                                                    <li>Git</li>
+                                                    <li>Vagrant</li>
+                                                    <li>Virtual Box</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-6 large-3 columns">
+                                <div class="callout-card Advanced radius">
+                                        <div class="card-label">
+                                            <div class="label-text">Advanced</div>
+                                        </div>
+                                        <div class="callout-card-content">
+                                                <h3 class="text-center name">
+                                                Programming
+                                            </h3>
+                                            <ul class="keywords">
+                                                    <li>JavaScript</li>
+                                                    <li>PHP</li>
+                                                    <li>SQL</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div id="work">
+                    <h2>Work Experience</h2>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Artificer</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.stromengineering.com/" target="_blank"><span itemprop="name">Strom Engineering</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Aug 2014</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Oct 2015</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                        </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <ul class="highlights">
+                                                            <li>
+                                                                <p>Various LEAN manufacturing assembly line positions</p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>End of the line testing and evaluation.</p>
+
+                                                            </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Adjunct Professor/Part-Time Math Teacher</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <span itemprop="name">Higher Education</span>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Aug 2010</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">May 2014</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Taught Learning Support Math, Developmental Studies, Algebra, and Statistics.</div>
+                                                </div>
+                                        </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <ul class="highlights">
+                                                            <li>
+                                                                <p><a href="http://jscc.edu">Jackson State Community College</a></p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="http://columbiastate.edu">Columbia State Community College</a></p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="http://una.edu">University of North Alabama</a></p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="http://itt-tech.info">ITT Tech - Madison, Alabama</a></p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="http://mhbs.org">Mars Hill Bible School</a></p>
+
+                                                            </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Freelance</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.realestate-Huntsville.com" target="_blank"><span itemprop="name">Real Estate Intelligence Agency, Inc.</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Oct 2012</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Present</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Full Stack Developer</div>
+                                                </div>
+                                        </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <ul class="highlights">
+                                                            <li>
+                                                                <p>Integrating IDX MLS into <a href="http://www.RealEstate-Huntsville.com">Real Estate Intellicence Agency</a></p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>Integrating IDX MLS into <a href="http://CherokeeRidgeHomes.com">Cherokee Ridge Home</a></p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>Search Engine Optimization (<strong>SEO</strong>) specialist</p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>WordPress theme modifications</p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>CSS/LESS/SASS</p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>Webmaster: PHP, Javascript, jQuery, and plugins.</p>
+
+                                                            </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Farmer</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="https://www.facebook.com/England-Farms-357539910988780/" target="_blank"><span itemprop="name">England Farms</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Apr 1965</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Dec 2010</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Equipment Operator, Mechanic, Wrangler</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Engineer</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://ThermaSave.us" target="_blank"><span itemprop="name">ThermaSave of IHSN</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jun 2005</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Jan 2007</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Worked in the construction, shipping and setup of IHSN franchises for the manufacture of Structurally Insulated Panels (SIPs).Also built and assembled houses from SIPs.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Freelance Computer Technician</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <span itemprop="name">Self</span>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jan 1995</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Dec 2001</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                        </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <ul class="highlights">
+                                                            <li>
+                                                                <p>Trouble shot computers and resolved network issues.</p>
+
+                                                            </li>
+                                                            <li>
+                                                                <p>Worked on the family farm.</p>
+
+                                                            </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Research and Development</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.insciences.com/" target="_blank"><span itemprop="name">Instrumental Sciences, Inc</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jan 2000</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Jan 2001</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Investigated the loss of high frequency radio transmissions due to weather events.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Mathematician</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.adt-it.com" target="_blank"><span itemprop="name">Applied Data Trends, Inc</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jan 1998</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Jan 2000</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Extracted climate data from NASA and NOAA databases to improve climate models.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Post Doctoral Research Associate, Atmospheric</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.ghcc.msfc.nasa.gov/" target="_blank"><span itemprop="name">Global Hydrology and Climate Center</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jan 1995</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Jan 1997</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Worked at Tennessee Valley Authority (TVA) simulating ozone transport. Continued development of Atmospheric simulations. Wrote papers and proposals.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Mathematics Lecturer and Research Associate</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.uah.edu" target="_blank"><span itemprop="name">The University of Alabama in Huntsville</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jan 1993</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Jan 1995</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Taught Calculus and Differential Equations. Continued research and development of atmospheric numerical models. Wrote papers and proposals.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                                <div class="row">
+                                    <div class="callout-card-content">
+                                        <div class="row">
+                                                <div class="small-12 medium-5 large-5 columns">
+                                                    <span class="position">Engineer (Testing and Evaluation)</span>
+                                                </div>
+                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                        <a itemprop="url" href="http://www.dese.com/" target="_blank"><span itemprop="name">DESE Research, Inc.</span></a>
+                                                </div>
+                                            <div class="small-12 medium-3 large-3 columns">
+                                                <p class="dates">
+                                                        <span class="startDate">Jan 1992</span>&nbsp;&ndash;&nbsp;
+                                                        <span class="endDate">Jan 1993</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <div class="lead summary">Analyzed and Designed an experiment to determine the near-miss distance for the Anti-Satellite (ASAT) project. Provided intelligence support for the First Gulf War.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div id="education">
+                    <h2>Education</h2>
+                        <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" class="callout-card radius secondary">
+                            <div class="callout-card-content">
+                                    <div class="small-6 medium-2 large-2 columns">
+                                        <div class="studyType">PhD</div>
+                                            <p class="gpa">
+                                                <span class="label">GPA: </span><span class="value">3.67/4.00</span>
+                                            </p>
+                                    </div>
+                                    <div class="small-6 medium-2 large-3 columns">
+                                        <span class="area">Math, Statistics and the Atmospheric Sciences</span>
+                                    </div>
+                                    <div class="small-12 medium-4 large-4 large-centered columns">
+                                        <span itemprop="name" class="institution"><p><a href="http://www.uah.edu">University of Alabama in Huntsville</a></p>
+</span>
+                                    </div>
+                                <div class="small-6 medium-2 large-3 columns">
+                                    <p class="dates">
+                                            <span class="startDate">Jan 1987</span>&nbsp;&ndash;&nbsp;
+                                            <span class="endDate">Jun 1993</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                            </div>
+                        </div>
+                        <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" class="callout-card radius secondary">
+                            <div class="callout-card-content">
+                                    <div class="small-6 medium-2 large-2 columns">
+                                        <div class="studyType">MS</div>
+                                            <p class="gpa">
+                                                <span class="label">GPA: </span><span class="value">3.33/4.00</span>
+                                            </p>
+                                    </div>
+                                    <div class="small-6 medium-2 large-3 columns">
+                                        <span class="area">Math, Statistics and the Atmospheric Sciences</span>
+                                    </div>
+                                    <div class="small-12 medium-4 large-4 large-centered columns">
+                                        <span itemprop="name" class="institution"><p><a href="http://www.uah.edu">University of Alabama in Huntsville</a></p>
+</span>
+                                    </div>
+                                <div class="small-6 medium-2 large-3 columns">
+                                    <p class="dates">
+                                            <span class="startDate">Jun 1985</span>&nbsp;&ndash;&nbsp;
+                                            <span class="endDate">Dec 1987</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                            </div>
+                        </div>
+                        <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" class="callout-card radius secondary">
+                            <div class="callout-card-content">
+                                    <div class="small-6 medium-2 large-2 columns">
+                                        <div class="studyType">BS</div>
+                                            <p class="gpa">
+                                                <span class="label">GPA: </span><span class="value">1.79/3.00</span>
+                                            </p>
+                                    </div>
+                                    <div class="small-6 medium-2 large-3 columns">
+                                        <span class="area">Math, Computer Science, Statistics and Physics</span>
+                                    </div>
+                                    <div class="small-12 medium-4 large-4 large-centered columns">
+                                        <span itemprop="name" class="institution"><p><a href="http://www.una.edu">University of North Alabama</a></p>
+</span>
+                                    </div>
+                                <div class="small-6 medium-2 large-3 columns">
+                                    <p class="dates">
+                                            <span class="startDate">Aug 1978</span>&nbsp;&ndash;&nbsp;
+                                            <span class="endDate">May 1983</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                            </div>
+                        </div>
+                        <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" class="callout-card radius secondary">
+                            <div class="callout-card-content">
+                                    <div class="large-2 columns"></div>
+                                    <div class="small-6 medium-2 large-3 columns">
+                                    </div>
+                                    <div class="small-12 medium-4 large-4 large-centered columns">
+                                        <span itemprop="name" class="institution"><p><a href="http://central.lch.schoolinsites.com/">Central High School</a></p>
+</span>
+                                    </div>
+                                <div class="small-6 medium-2 large-3 columns">
+                                    <p class="dates">
+                                            <span class="startDate">Jan 1965</span>&nbsp;&ndash;&nbsp;
+                                            <span class="endDate">Jun 1978</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                            </div>
+                        </div>
+                </div>
+                <div id="languages">
+                    <h2>Languages</h2>
+                    <div class="row">
+                            <div class="small-6 large-6 columns">
+                                    <div class="language">
+                                        English
+                                    </div>
+                                    <div class="fluency">
+                                        Native speaker (USA/SEC)
+                                    </div>
+                            </div>
+                            <div class="small-6 large-6 columns">
+                                    <div class="language">
+                                        German
+                                    </div>
+                                    <div class="fluency">
+                                        Limited Working
+                                    </div>
+                            </div>
+                    </div>
+                <div id="references">
+                    <h2>References</h2>
+                        <div class="row">
+                            <div class="item">
+                                    <blockquote class="reference">
+                                        I have used David for Web and IT technology services for my companies over the years. He was assisting me in early 90&#x27;s to hand code html for websites - at a time companies were still trying to justify value for building a website. Today he provides advice and support for all IT related challenges my company faces. I admire his ability to keep up with technological change and see the relevance to my business.
+                                    </blockquote>
+                                    <cite itemprop="colleague"><span itemtype="http://schema.org/Person"><span itemprop="name">Mikko Jetsu</span></span></cite>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="item">
+                                    <blockquote class="reference">
+                                        Dr. England is a part-time instructor of mathematics at our Clifton campus. He is good with the students, and willing to be flexible with scheduling. If he says he will teach a class, then I don&#x27;t have any worries about that class for the semester.
+                                    </blockquote>
+                                    <cite itemprop="colleague"><span itemtype="http://schema.org/Person"><span itemprop="name">Tammy Borren</span></span></cite>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="item">
+                                    <blockquote class="reference">
+                                        Dave is hands down brilliant. His perspective and point of view along with his dedication to problem solving were vital to the completion of our advanced research project. I hope we have the opportunity to work together again.
+                                    </blockquote>
+                                    <cite itemprop="colleague"><span itemtype="http://schema.org/Person"><span itemprop="name">Derrick T. Copeland</span></span></cite>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="item">
+                                    <blockquote class="reference">
+                                        I have known David England for 20 years and know him to be an exceptional scientist. His adherence to detail and want to dive into deep problems and work out a solution is something one rarely comes across in the applied sciences. His comprehensive knowledge covers a broad area that of, applied mathematics, physics and mathematical modeling. Though not only a brilliant scientist, one who is always willing to lend a helping hand. I would like to give my strongest recommendation to David England.
+                                    </blockquote>
+                                    <cite itemprop="colleague"><span itemtype="http://schema.org/Person"><span itemprop="name">Justin Hnilo</span></span></cite>
+                            </div>
+                        </div>
+                </div>
+                <div id="publications">
+                    <h2>Publications</h2>
+                        <div class="callout-card radius secondary">
+                            <div class="callout-card-content" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                                    <span class="name" itemprop="name">Predictability of the Stable Atmospheric Boundary Layer</span>.&nbsp;&nbsp;
+                                    <span class="publisher" itemprop="publisher">American Meteorological Society</span>
+                                    , <span class="releaseDate" itemprop="datePublished">May 1995</span>
+                                    <span class="website"> &nbsp;<a itemprop="sameAs" href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281995%29052%3C1602%3APOTSAB%3E2.0.CO%3B2" target="_blank">http://journals.ametsoc.org/doi/abs/10.1175/1520-0469(1995)052&lt;1602:POTSAB&gt;2.0.CO;2</a></span>
+                            </div>
+                        </div>
+                        <div class="callout-card radius secondary">
+                            <div class="callout-card-content" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                                    <span class="name" itemprop="name">Stability Functions based upon Shear Functions</span>.&nbsp;&nbsp;
+                                    <span class="publisher" itemprop="publisher">Boundary Layer Meteorology</span>
+                                    , <span class="releaseDate" itemprop="datePublished">Apr 1995</span>
+                                    <span class="website"> &nbsp;<a itemprop="sameAs" href="http://link.springer.com/article/10.1007%2FBF00715713" target="_blank">http://link.springer.com/article/10.1007/BF00715713</a></span>
+                            </div>
+                        </div>
+                        <div class="callout-card radius secondary">
+                            <div class="callout-card-content" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                                    <span class="name" itemprop="name">On the Behavior of the Stable Boundary Layer and the Role of Initial Conditions</span>.&nbsp;&nbsp;
+                                    <span class="publisher" itemprop="publisher">Pure and Applied Geophysics</span>
+                                    , <span class="releaseDate" itemprop="datePublished">Oct 2005</span>
+                                    <span class="website"> &nbsp;<a itemprop="sameAs" href="http://link.springer.com/article/10.1007%2Fs00024-005-2694-7" target="_blank">http://link.springer.com/article/10.1007/s00024-005-2694-7</a></span>
+                            </div>
+                        </div>
+                        <div class="callout-card radius secondary">
+                            <div class="callout-card-content" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                                    <span class="name" itemprop="name">Concerning the Limiting Behavior of Time-dependent Slope Winds</span>.&nbsp;&nbsp;
+                                    <span class="publisher" itemprop="publisher">Journal of the Atmospheric Sciences/American Meteorological Society</span>
+                                    , <span class="releaseDate" itemprop="datePublished">Jun 1993</span>
+                                    <span class="website"> &nbsp;<a itemprop="sameAs" href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1610%3ACTLBOT%3E2.0.CO%3B2" target="_blank">http://journals.ametsoc.org/doi/abs/10.1175/1520-0469(1993)050&lt;1610:CTLBOT&gt;2.0.CO;2</a></span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">&copy;  David England</div>
+</body>
+
+</html>

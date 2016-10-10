@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 .icon-button {
   border-radius: 3.6rem;
   width: 3.6rem;
@@ -299,4 +299,4 @@ a[href^="http:://twitter.com"]:before {
         transform: rotate(30deg); }
 
 body {
-  font-family: 'Titillium Web', 'Open Sans', sans-serif; }
+  font-family: "Titillium Web", "Open Sans", sans-serif; }
