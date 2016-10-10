@@ -1,0 +1,302 @@
+
+.icon-button {
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem; }
+  .icon-button span {
+    display: block;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all 0.3s; }
+  .icon-button:hover span {
+    display: block;
+    border-radius: 3.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: -1.8rem; }
+  .icon-button i {
+    background: none;
+    height: 3.6rem;
+    width: 3.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    line-height: 3.6rem;
+    transition: all 0.3s; }
+
+.twitter span {
+  background-color: #4099ff; }
+
+.facebook span {
+  background-color: #3B5998; }
+
+.github span {
+  background-color: #4183C4; }
+
+.google-plus span {
+  background-color: #db5a3c; }
+
+.linkedin span {
+  background-color: #007bb6; }
+
+.icon-button .fi-social-twitter {
+  color: #4099ff; }
+
+.icon-button .fi-social-facebook {
+  color: #3b5998; }
+
+.icon-button .fi-social-github {
+  color: #4183C4; }
+
+.icon-button .fi-social-google-plus {
+  color: #db5a3c; }
+
+.icon-button .fi-social-linkedin {
+  color: #007bb6; }
+
+.icon-button:hover .fi-social-facebook,
+.icon-button:hover .fi-social-github,
+.icon-button:hover .fi-social-google-plus,
+.icon-button:hover .fi-social-linkedin,
+.icon-button:hover .fi-social-twitter {
+  color: white;
+  font-size: 2.6rem;
+  line-height: 3.9rem; }
+
+.header {
+  background: #8a8a8a; }
+  .header .columns {
+    padding-bottom: 0; }
+  .header p {
+    color: #ffffff;
+    padding-top: 15px; }
+  .header .wrapper-inner {
+    padding: 20px; }
+  .header .container {
+    background: transparent; }
+
+a[href^="mailto:"]:before {
+  content: "\1F4E7 "; }
+
+.website:before {
+  content: "\1F517"; }
+
+a[href^="tel:"]:before {
+  content: "\1F4F1"; }
+
+.important:before {
+  content: "\27BE"; }
+
+blockquote:before {
+  content: "\275D"; }
+
+blockquote:after {
+  content: "\275E"; }
+
+.alert:before {
+  content: "\26A0"; }
+
+#education .gpa .value {
+  font-weight: 700; }
+
+#languages .fluency {
+  font-style: italic; }
+
+#location .postalCode {
+  font-weight: 700; }
+
+#publications {
+  page-break-before: always; }
+  #publications .publisher {
+    font-style: italic; }
+  #publications .releaseDate {
+    font-weight: 700; }
+
+#work .position {
+  font-weight: 700; }
+
+#references cite {
+  float: right; }
+
+a[href^="http:://twitter.com"]:before {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  content: "\1F426"; }
+
+.wrapper.secondary {
+  background: #f3f3f3; }
+
+.copywrite {
+  font-size: smaller; }
+
+.dates {
+  text-align: right; }
+
+@media only screen and (max-width: 40em) {
+  .dates {
+    text-align: left; } }
+
+.button .Twitter {
+  background: #00aced !important;
+  background-color: #00aced; }
+
+.button .Facebook {
+  background: #3b5998 !important;
+  background-color: #3b5998; }
+
+.button .google-plus {
+  background: #dd4b39 !important;
+  background-color: #dd4b39; }
+
+.button .Pinterest {
+  background: #cb2027 !important;
+  background-color: #cb2027; }
+
+.button .LinkedIn {
+  background: #007bb6 !important;
+  background-color: #007bb6; }
+
+.button .YouTube {
+  background: #bb0000 !important;
+  background-color: #bb0000; }
+
+.button .Vimeo {
+  background: #aad450 !important;
+  background-color: #aad450; }
+
+.button .Tumblr {
+  background: #32506d !important;
+  background-color: #32506d; }
+
+.button .InstaGram {
+  background: #517fa4 !important;
+  background-color: #517fa4; }
+
+.button .Flickr {
+  background: #ff0084 !important;
+  background-color: #ff0084; }
+
+.button .Dribbble {
+  background: #ea4c89 !important;
+  background-color: #ea4c89; }
+
+.button .Quora {
+  background: #a82400 !important;
+  background-color: #a82400; }
+
+.button .FourSquare {
+  background: #0072b1 !important;
+  background-color: #0072b1; }
+
+.button .Forrst {
+  background: #5B9A68 !important;
+  background-color: #5B9A68; }
+
+.button .vk {
+  background: #45668e !important;
+  background-color: #45668e; }
+
+.button .WordPress {
+  background: #21759b !important;
+  background-color: #21759b; }
+
+.button .StumbleUpon {
+  background: #EB4823 !important;
+  background-color: #EB4823; }
+
+.button .Yahoo {
+  background: #7B0099 !important;
+  background-color: #7B0099; }
+
+.button .Blogger {
+  background: #fb8f3d !important;
+  background-color: #fb8f3d; }
+
+.button .SoundCloud {
+  background: #ff3a00 !important;
+  background-color: #ff3a00; }
+
+.callout-card {
+  background: #fff;
+  border: 1px solid #333;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  overflow: hidden; }
+  .callout-card .card-label {
+    border-color: transparent #333 transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #333 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.primary {
+    border-color: #446CB3; }
+    .callout-card.primary .card-label {
+      border-color: transparent #446CB3 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #446CB3 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.Advanced {
+    border-color: #446CB3; }
+    .callout-card.Advanced .card-label {
+      border-color: transparent #446CB3 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #446CB3 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.secondary {
+    border-color: #ADB2BD; }
+    .callout-card.secondary .card-label {
+      border-color: transparent #ADB2BD transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #ADB2BD rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.info {
+    border-color: #89c4f4; }
+    .callout-card.info .card-label {
+      border-color: transparent #89c4f4 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #89c4f4 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.alert {
+    border-color: #F22613; }
+    .callout-card.alert .card-label {
+      border-color: transparent #F22613 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #F22613 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.success {
+    border-color: #87D37C; }
+    .callout-card.success .card-label {
+      border-color: transparent #87D37C transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #87D37C rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.Master {
+    border-color: #87D37C; }
+    .callout-card.Master .card-label {
+      border-color: transparent #87D37C transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #87D37C rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card.warning {
+    border-color: #F89406; }
+    .callout-card.warning .card-label {
+      border-color: transparent #F89406 transparent transparent;
+      border-color: rgba(255, 255, 255, 0) #F89406 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
+  .callout-card .card-label {
+    border-style: solid;
+    border-width: 0 70px 40px 0;
+    float: right;
+    height: 0;
+    width: 0;
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg); }
+  .callout-card .callout-card-content {
+    padding: 0.5rem 1.5rem 0.875rem; }
+  .callout-card.radius {
+    border-radius: 0.6rem; }
+  .callout-card .label-text {
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: bold;
+    position: relative;
+    right: -30px;
+    top: 2px;
+    white-space: nowrap;
+    -ms-transform: rotate(30deg);
+        transform: rotate(30deg); }
+
+body {
+  font-family: 'Titillium Web', 'Open Sans', sans-serif; }

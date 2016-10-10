@@ -1,0 +1,7 @@
+$social-colors: ( Twitter: #00aced, Facebook: #3b5998, google-plus: #dd4b39, Pinterest: #cb2027, LinkedIn: #007bb6, YouTube: #bb0000, Vimeo: #aad450, Tumblr: #32506d, InstaGram: #517fa4, Flickr: #ff0084, Dribbble: #ea4c89, Quora: #a82400, FourSquare: #0072b1, Forrst: #5B9A68, vk: #45668e, WordPress: #21759b, StumbleUpon: #EB4823, Yahoo: #7B0099, Blogger: #fb8f3d, SoundCloud: #ff3a00 );
+@each $social-network, $social-color in $social-colors {
+    .button .#{$social-network} {
+        background      : $social-color !important;
+        background-color: $social-color;
+    }
+}

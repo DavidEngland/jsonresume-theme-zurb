@@ -1,0 +1,43 @@
+{
+  "name": "jsonresume-theme-zurb",
+  "version": "0.0.1",
+  "description": "JSON Resume Template with zurb Foundation for Sites.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "author": "David England <DavidEEngland@Outlook.com>",
+  "license": "MIT",
+  "keywords": [
+    "jsonresume",
+    "json",
+    "resume",
+    "theme",
+    "zurb",
+    "foundation",
+    "cv"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.17.2",
+    "nodemon": "^1.11.0",
+    "resume-schema": "0.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidEngland/jsonresume-theme-zurb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidEngland/jsonresume-theme-zurb/issues",
+    "email": "DavidEEngland@Outlook.comm"
+  },
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "marked": "^0.3.6",
+    "moment": "^2.15.1"
+  },
+  "scripts": {
+    "prepublish": "npm run build -s",
+    "start": "nodemon server.js -w lib -e js"
+  }
+}

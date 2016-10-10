@@ -1,0 +1,104 @@
+.header {
+    background: #8a8a8a;
+
+    .columns {
+        padding-bottom: 0;
+    }
+
+    p {
+        color      : #ffffff;
+        padding-top: 15px;
+    }
+
+    .wrapper-inner {
+        padding: 20px;
+    }
+
+    .container {
+        background: transparent;
+    }
+}
+
+a[href^="mailto:"]:before {
+    content: "\1F4E7 ";
+}
+
+.website:before {
+    content: "\1F517";
+}
+
+a[href^="tel:"]:before {
+    content: "\1F4F1";
+}
+
+.important:before {
+    content: "\27BE";
+}
+
+blockquote:before {
+    content: "\275D";
+}
+
+blockquote:after {
+    content: "\275E";
+}
+
+.alert:before {
+    content: "\26A0";
+}
+
+#education .gpa .value {
+    font-weight: 700;
+}
+
+#languages .fluency {
+    font-style: italic;
+}
+
+#location .postalCode {
+    font-weight: 700;
+}
+
+#publications {
+    page-break-before: always;
+
+    .publisher {
+        font-style: italic;
+    }
+
+    .releaseDate {
+        font-weight: 700;
+    }
+}
+
+#work .position {
+    font-weight: 700;
+}
+
+#references cite {
+    float: right;
+}
+
+a[href^="http:://twitter.com"]:before {
+    direction   : rtl;
+    unicode-bidi: bidi-override;
+    content     : "\1F426";
+}
+
+.wrapper.secondary {
+    background: #f3f3f3;
+}
+
+.copywrite {
+    font-size: smaller;
+}
+
+    .dates {
+        text-align: right;
+    }
+
+@media only screen and (max-width: 40em) {
+    .dates {
+        text-align: left;
+    }
+}

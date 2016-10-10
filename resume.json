@@ -1,0 +1,274 @@
+{
+    "basics": {
+        "name": "David England",
+        "label": "Available for Hire",
+        "picture": "https://media.licdn.com/mpr/mprx/0_OPQTE-z_17C7p9jkKnBYElFi1Hc7yvukpNtOElFO2DiY_AUXtvnSXAPrjQBl0tSe0Kkx59JoZRAX",
+        "website": "http://about.me/DavidEngland",
+        "email": "DavidEEngland@Outlook.com",
+        "phone": "(931) 332-6747",
+        "summary": "Very versatile worker with extensive experience in many diverse areas. Able to adapt to almost any work environment. Especially enjoy working with data, programming and statistics.",
+        "profiles": [{
+            "network": "LinkedIn",
+            "username": "davidengland",
+            "url": "https://www.linkedin.com/in/davidengland"
+        }, {
+            "network": "Facebook",
+            "username": "DavidEEngland",
+            "url": "https://www.facebook.com/DavidEEngland"
+        }, {
+            "network": "google-plus",
+            "username": "DavidEEngland",
+            "url": "https://plus.google.com/u/0/+DavidEngland/"
+        }, {
+            "network": "Twitter",
+            "username": "DavidEEngland",
+            "url": "http://twitter.com/DavidEEngland"
+        }, {
+            "network": "GitHub",
+            "username": "DavidEngland",
+            "url": "https://github.com/DavidEngland"
+        }],
+        "location": {
+            "address": "412 W Tennessee St.",
+            "city": "Collinwood",
+            "region": "TN",
+            "postalCode": "38450"
+        }
+    },
+
+    "work": [{
+        "company": "Strom Engineering",
+        "position": "Artificer",
+        "website": "http://www.stromengineering.com/",
+        "startDate": "2014-08",
+        "endDate": "2015-10",
+        "highlights": [
+            "Various LEAN manufacturing assembly line positions",
+            "End of the line testing and evaluation."
+        ]
+    }, {
+        "company": "Higher Education",
+        "position": "Adjunct Professor/Part-Time Math Teacher",
+        "summary": "Taught Learning Support Math, Developmental Studies, Algebra, and Statistics.",
+        "startDate": "2010-08",
+        "endDate": "2014-05",
+        "highlights": [
+            "[Jackson State Community College](http://jscc.edu)",
+            "[Columbia State Community College](http://columbiastate.edu)",
+            "[University of North Alabama](http://una.edu)",
+            "[ITT Tech - Madison, Alabama](http://itt-tech.info)",
+            "[Mars Hill Bible School](http://mhbs.org)"
+        ]
+    }, {
+        "company": "Real Estate Intelligence Agency, Inc.",
+        "position": "Freelance",
+        "website": "http://www.realestate-Huntsville.com",
+        "startDate": "2012-10",
+        "endDate": "",
+        "summary": "Full Stack Developer",
+        "highlights": [
+            "Integrating IDX MLS into [Real Estate Intellicence Agency](http://www.RealEstate-Huntsville.com)",
+            "Integrating IDX MLS into [Cherokee Ridge Home](http://CherokeeRidgeHomes.com)",
+            "Search Engine Optimization (**SEO**) specialist",
+            "WordPress theme modifications",
+            "CSS/LESS/SASS",
+            "Webmaster: PHP, Javascript, jQuery, and plugins."
+        ]
+    }, {
+        "company": "England Farms",
+        "position": "Farmer",
+        "website": "https://www.facebook.com/England-Farms-357539910988780/",
+        "startDate": "1965-04",
+        "endDate": "2010-12",
+        "summary": "Equipment Operator, Mechanic, Wrangler"
+    }, {
+        "company": "ThermaSave of IHSN",
+        "position": "Engineer",
+        "website": "http://ThermaSave.us",
+        "startDate": "2005-06",
+        "endDate": "2007-01",
+        "summary": "Worked in the construction, shipping and setup of IHSN franchises for the manufacture of Structurally Insulated Panels (SIPs).Also built and assembled houses from SIPs."
+    }, {
+        "company": "Self",
+        "position": "Freelance Computer Technician",
+        "website": "",
+        "startDate": "1995-01",
+        "endDate": "2001-12",
+        "highlights": [
+            "Trouble shot computers and resolved network issues.",
+            "Worked on the family farm."
+        ]
+    }, {
+        "company": "Instrumental Sciences, Inc",
+        "position": "Research and Development",
+        "website": "http://www.insciences.com/",
+        "startDate": "2000",
+        "endDate": "2001",
+        "summary": "Investigated the loss of high frequency radio transmissions due to weather events."
+    }, {
+        "company": "Applied Data Trends, Inc",
+        "position": "Mathematician",
+        "website": "http://www.adt-it.com",
+        "startDate": "1998",
+        "endDate": "2000",
+        "summary": "Extracted climate data from NASA and NOAA databases to improve climate models."
+    }, {
+        "company": "Global Hydrology and Climate Center",
+        "position": "Post Doctoral Research Associate, Atmospheric",
+        "website": "http://www.ghcc.msfc.nasa.gov/",
+        "startDate": "1995",
+        "endDate": "1997",
+        "summary": "Worked at Tennessee Valley Authority (TVA) simulating ozone transport. Continued development of Atmospheric simulations. Wrote papers and proposals."
+    }, {
+        "company": "The University of Alabama in Huntsville",
+        "position": "Mathematics Lecturer and Research Associate",
+        "website": "http://www.uah.edu",
+        "startDate": "1993",
+        "endDate": "1995",
+        "summary": "Taught Calculus and Differential Equations. Continued research and development of atmospheric numerical models. Wrote papers and proposals."
+    }, {
+        "company": "DESE Research, Inc.",
+        "position": "Engineer (Testing and Evaluation)",
+        "website": "http://www.dese.com/",
+        "startDate": "1992",
+        "endDate": "1993",
+        "summary": "Analyzed and Designed an experiment to determine the near-miss distance for the Anti-Satellite (ASAT) project. Provided intelligence support for the First Gulf War."
+    }],
+    "volunteer": [],
+    "education": [{
+        "institution": "[University of Alabama in Huntsville](http://www.uah.edu)",
+        "studyType": "PhD",
+        "area": "Math, Statistics and the Atmospheric Sciences",
+        "startDate": "1987-01",
+        "endDate": "1993-06-19",
+        "summary": "Dissertation: A Mathematical Analysis of Nocturnal Slope Flows.",
+        "courses": [],
+        "gpa": "3.67/4.00"
+    }, {
+        "institution": "[University of Alabama in Huntsville](http://www.uah.edu)",
+        "studyType": "MS",
+        "area": "Math, Statistics and the Atmospheric Sciences",
+        "startDate": "1985-06",
+        "endDate": "1987-12-13",
+        "summary": "Calibrated pyronometers for NASA. Launched weather balloons. Researched and developed numerical weather and climate models. Taught Pre-Calculus thru Differential Equations level courses.",
+        "gpa": "3.33/4.00"
+    }, {
+        "institution": "[University of North Alabama](http://www.una.edu)",
+        "studyType": "BS",
+        "area": "Math, Computer Science, Statistics and Physics",
+        "startDate": "1978-08-21",
+        "endDate": "1983-05-11",
+        "summary": "Also showed films at media center and worked in the computer lab.",
+        "courses": [],
+        "gpa": "1.79/3.00"
+    }, {
+        "institution": "[Central High School](http://central.lch.schoolinsites.com/)",
+        "startDate": "1965",
+        "endDate": "1978-06",
+        "courses": []
+    }],
+    "awards": [],
+    "publications": [{
+        "name": "Predictability of the Stable Atmospheric Boundary Layer",
+        "releaseDate": "1995-05",
+        "publisher": "American Meteorological Society",
+        "website": "http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281995%29052%3C1602%3APOTSAB%3E2.0.CO%3B2"
+    }, {
+        "name": "Stability Functions based upon Shear Functions",
+        "releaseDate": "1995-04",
+        "publisher": "Boundary Layer Meteorology",
+        "website": "http://link.springer.com/article/10.1007%2FBF00715713"
+    }, {
+        "name": "On the Behavior of the Stable Boundary Layer and the Role of Initial Conditions",
+        "releaseDate": "2005-10",
+        "publisher": "Pure and Applied Geophysics",
+        "website": "http://link.springer.com/article/10.1007%2Fs00024-005-2694-7"
+    }, {
+        "name": "Concerning the Limiting Behavior of Time-dependent Slope Winds",
+        "releaseDate": "1993-06",
+        "publisher": "Journal of the Atmospheric Sciences/American Meteorological Society",
+        "website": "http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1610%3ACTLBOT%3E2.0.CO%3B2"
+    }],
+    "skills": [{
+        "name": "Concepts",
+        "keywords": [
+            "Physics",
+            "Analysis",
+            "Statistics",
+            "Theory",
+            "Research",
+            "Algorithms",
+            "Mathematical Modeling",
+            "TroubleShooting",
+            "Problem Solving",
+            "OOP",
+            "REST",
+            "SEO"
+        ]
+    }, {
+        "name": "Web Development",
+        "level": "Advanced",
+        "keywords": [
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "jQuery",
+            "Bootstrap",
+            "Bower",
+            "npm",
+            "Grunt",
+            "Gulp",
+            "Node.js",
+            "Apache",
+            "MySQL",
+            "PHP",
+            "XML"
+        ]
+    }, {
+        "name": "Operating Systems",
+        "level": "Master",
+        "keywords": [
+            "Microsoft Windows",
+            "Linux"
+        ]
+    }, {
+        "name": "Software",
+        "level": "Advanced",
+        "keywords": [
+            "WordPress",
+            "LaTex",
+            "Git",
+            "Vagrant",
+            "Virtual Box"
+        ]
+    }, {
+        "name": "Programming",
+        "level": "Advanced",
+        "keywords": [
+            "JavaScript",
+            "PHP",
+            "SQL"
+        ]
+    }],
+    "languages": [{
+        "language": "English",
+        "fluency": "Native speaker (USA/SEC)"
+    }, {
+        "language": "German",
+        "fluency": "Limited Working"
+    }],
+    "interests": [],
+    "references": [{
+        "name": "Mikko Jetsu",
+        "reference": "I have used David for Web and IT technology services for my companies over the years. He was assisting me in early 90's to hand code html for websites - at a time companies were still trying to justify value for building a website. Today he provides advice and support for all IT related challenges my company faces. I admire his ability to keep up with technological change and see the relevance to my business."
+    }, {
+        "name": "Tammy Borren",
+        "reference": "Dr. England is a part-time instructor of mathematics at our Clifton campus. He is good with the students, and willing to be flexible with scheduling. If he says he will teach a class, then I don't have any worries about that class for the semester."
+    }, {
+        "name": "Derrick T. Copeland",
+        "reference": "Dave is hands down brilliant. His perspective and point of view along with his dedication to problem solving were vital to the completion of our advanced research project. I hope we have the opportunity to work together again."
+    }, {
+        "name": "Justin Hnilo",
+        "reference": "I have known David England for 20 years and know him to be an exceptional scientist. His adherence to detail and want to dive into deep problems and work out a solution is something one rarely comes across in the applied sciences. His comprehensive knowledge covers a broad area that of, applied mathematics, physics and mathematical modeling. Though not only a brilliant scientist, one who is always willing to lend a helping hand. I would like to give my strongest recommendation to David England."
+    }]
+}
