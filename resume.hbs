@@ -1,8 +1,8 @@
+<!doctype html>
 <!--
   This awesome resume was created {{#if resume.basics.name}}by {{resume.basics.name}} {{/if}}with the JSON resume schema: https://jsonresume.org/
   It uses the Foundation Zurb theme: https://github.com/DavidEngland/jsonresume-theme-zurb.git
 -->
-<!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -11,7 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{resume.basics.name}}</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,400i,700,700i" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css" rel="stylesheet">
+    <!-- <link href="social_foundicons.css" rel="stylesheet"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" integrity="sha256-haz1W/Eq5M2zCNvLT8+8rjKxmMvlrNJCHuiELtL8/a4=" crossorigin="anonymous" /> -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     <style>
         {{{css }}}
@@ -315,7 +318,7 @@
             {{/if}}
             </div>
         </div>
-        <div class="copywrite">&copy; {{theYear}} {{resume.basics.name}}</div>
+        <div class="copywrite">Copyright &copy; {{theYear}} {{resume.basics.name}}.  All rights reserved.  Free to distribute without any modifications whatsoever.</div>
 </body>
 
 </html>
