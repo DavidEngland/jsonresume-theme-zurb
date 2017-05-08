@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--
   This awesome resume was created {{#if resume.basics.name}}by {{resume.basics.name}} {{/if}}with the JSON resume schema: https://jsonresume.org/
   It uses the Foundation Zurb theme: https://github.com/DavidEngland/jsonresume-theme-zurb.git
@@ -11,9 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{resume.basics.name}}</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:400,400i,700,700i" rel="stylesheet">
-    <!-- <link href="social_foundicons.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/foundation-icons.css" rel="stylesheet" > -->
     <!-- <link href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" integrity="sha256-haz1W/Eq5M2zCNvLT8+8rjKxmMvlrNJCHuiELtL8/a4=" crossorigin="anonymous" /> -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     <style>
@@ -26,10 +26,15 @@
         <div id="resume" itemscope itemtype="http://schema.org/Person">
             {{#resume.basics}}
                 <div class="row">
-                    <div class="columns">
+                    <div class="small-12 medium-6 columns">
                         <h1 itemprop="name">{{name}}</h1>
-                        <h2>{{label}}</h2>
+                        <h2 itemprop="description">{{label}}</h2>
                     </div>
+                    {{#if picture}}
+                      <div class="small-12 medium-6 columns">
+                        <img src="{{picture}}" alt="Photo of {{name}}" class="avatar" itemprop="image">
+                      </div>
+                      {{/if}}
                 </div>
                 <div class="row">
                     {{#location}}
@@ -86,7 +91,7 @@
                         <div id="profiles">
                             {{#each profiles}}
                                 {{#if network}}
-                                    <a href="{{url}}" class="icon-button {{toLower network}}" target="_blank"><i class="fi-social-{{toLower network}}"></i><span></span></a>
+                                    <a href="{{url}}" itemprop="sameAs" class="icon-button {{toLower network}}" target="_blank"><i class="fi-social-{{toLower network}}"></i><span></span></a>
                                 {{/if}}
                             {{/each}}
                         </div>
@@ -129,8 +134,10 @@
                 <div id="work">
                     <h2>Work Experience</h2>
                     {{#each resume.work}}
-                        <div class="row">
-                            <div itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                        <div class="row" itemprop="worksFor" itemscope itemtype="http://schema.org/OrganizationRole">
+                          <meta itemprop="startDate" content="{{startDate}}" />
+                          {{#if endDate}}<meta itemprop="endDate" content="{{endDate}}" />{{/if}}
+                            <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
                                 <div class="row">
                                     <div class="callout-card-content">
                                         <div class="row">
@@ -142,7 +149,7 @@
                                                 <div class="small-12 medium-5 large-5 columns"></div>
                                             {{/if}}
                                             {{#if company}}
-                                                <div class="small-12 medium-4 large-4 large-centered columns">
+                                                <div class="small-12 medium-4 large-4 columns">
                                                     {{#if website}}
                                                         <a itemprop="url" href="{{website}}" target="_blank"><span itemprop="name">{{company}}</span></a>
                                                     {{else}}
@@ -196,7 +203,10 @@
                 <div id="education">
                     <h2>Education</h2>
                     {{#each resume.education}}
-                        <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" class="callout-card radius secondary">
+                        <div  itemprop="alumniOf" itemscope itemtype="http://schema.org/OrganizationRole" class="callout-card radius secondary">
+                          <meta itemprop="startDate" content="{{startDate}}" />
+                          {{#if endDate}}<meta itemprop="endDate" content="{{endDate}}" />{{/if}}
+                          <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
                             <div class="callout-card-content">
                                 {{#if studyType}}
                                     <div class="small-6 medium-2 large-2 columns">
@@ -208,7 +218,7 @@
                                         {{/if}}
                                     </div>
                                 {{else}}
-                                    <div class="large-2 columns"></div>
+                                    <div class="small-6 medium-2 large-2 columns"> </div>
                                 {{/if}}
                                 {{#if area}}
                                     <div class="small-6 medium-2 large-3 columns">
@@ -219,7 +229,7 @@
                                     </div>
                                 {{/if}}
                                 {{#if institution}}
-                                    <div class="small-12 medium-4 large-4 large-centered columns">
+                                    <div class="small-12 medium-4 large-4 columns">
                                         <span itemprop="name" class="institution">{{#markdown}}{{institution}}{{/markdown}}</span>
                                     </div>
                                 {{/if}}
@@ -236,15 +246,19 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="row">
+
                                 {{#if courses.length}}
+                                  <div class="row">
+                                    <div class="small-12 columns">
                                     <ul class="courses">
                                         {{#each courses}}
                                             <li>{{.}}</li>
                                         {{/each}}
                                     </ul>
+                                  </div>
+                                  </div>
                                 {{/if}}
-                            </div>
+                              </div>
                         </div>
                     {{/each}}
                 </div>
@@ -293,7 +307,7 @@
                     <h2>Publications</h2>
                     {{#each resume.publications}}
                         <div class="callout-card radius secondary">
-                            <div class="callout-card-content" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                            <div class="callout-card-content" itemscope itemtype="http://schema.org/Article">
                                 {{#if name}}
                                     <span class="name" itemprop="name">{{name}}</span>.&nbsp;&nbsp;
                                 {{/if}}
@@ -301,7 +315,7 @@
                                     <span class="publisher" itemprop="publisher">{{publisher}}</span>
                                 {{/if}}
                                 {{#if releaseDate}}
-                                    , <span class="releaseDate" itemprop="datePublished">{{prettifyDate releaseDate}}</span>
+                                    , <span class="releaseDate" datetime="{{releaseDate}}" itemprop="datePublished">{{prettifyDate releaseDate}}</span>
                                 {{/if}}
                                 {{#if website}}
                                     <span class="website"> &nbsp;<a itemprop="sameAs" href="{{website}}" target="_blank">{{decodeURI website}}</a></span>
@@ -322,3 +336,4 @@
 </body>
 
 </html>
+
