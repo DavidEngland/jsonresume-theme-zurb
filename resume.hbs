@@ -20,6 +20,7 @@
   <style>
   {{{ css }}}
   </style>
+<<<<<<< HEAD
 
 </head>
 
@@ -314,12 +315,189 @@
                       </div>
                     </div>
                   {{/if}}
+=======
+</head>
+
+<body>
+  <div class="column row">
+    <div id="resume" itemscope itemtype="http://schema.org/Person">
+      {{#resume.basics}}
+        <div class="row">
+          <div class="small-12 medium-6 columns">
+            <h1 itemprop="name">{{name}}</h1>
+            <h2 itemprop="description">{{label}}</h2>
+          </div>
+          {{#if picture}}
+            <div class="small-12 medium-6 columns">
+              <img src="{{picture}}" alt="Photo of {{name}}" class="avatar" itemprop="image">
+            </div>
+          {{/if}}
+        </div>
+        <div class="row">
+          {{#location}}
+            <!-- <div class="row"> -->
+            <div class="small-12 medium-6 large-6 columns">
+              <div id="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="callout-card radius">
+                <div class="callout-card-content">
+                  {{#if address}}
+                    <div itemprop="streetAddress" class="address">
+                      {{address}}
+                    </div>
+                  {{/if}}
+                  {{#if city}}
+                    <span itemprop="addressLocality" class="city">{{city}},&nbsp;</span>
+                  {{/if}}
+                  {{#if region}}
+                    <span itemprop="addressRegion" class="region">{{region}}</span>
+                  {{/if}}
+                  {{#if postalCode}}
+                    <span itemprop="postalCode" class="postalCode">&nbsp;&nbsp;{{postalCode}}</span>
+                  {{/if}}
+                  {{#if countryCode}}
+                    <span itemprop="addressCountry" class="countryCode">{{countryCode}}</span>
+                  {{/if}}
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+          {{/location}}
+          <div class="small-12 medium-6 large-6 columns">
+            <div id="basics" class="callout-card radius">
+              <div class="contact callout-card-content">
+                {{#if website}}
+                  <div class="website">
+                    <a href="{{website}}" target="_blank" itemprop="url">&nbsp;{{website}}</a>
+                  </div>
+                {{/if}}
+                {{#if email}}
+                  <div class="email">
+                    <a href="mailto:{{email}}" class="link-disguise info" itemprop="email">&nbsp;{{email}}</a>
+                  </div>
+                {{/if}}
+                {{#if phone}}
+                  <div class="phone">
+                    <a href="tel://{{phone}}" class="link-disguise info" itemprop="telephone">&nbsp;{{phone}}</a>
+                  </div>
+                {{/if}}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{#if profiles.length}}
+          <div class="row">
+            <div id="profiles" class="rounded-social-buttons">
+              {{#each profiles}}
+                {{#if network}}
+                  <a href="{{url}}" itemprop="sameAs" class="social-button {{toLower network}}" target="_blank"><span class="socicon socicon-{{toLower network}}"></span><span></span></a>
+                {{/if}}
+              {{/each}}
+            </div>
+          </div>
+        {{/if}}
+      {{/resume.basics}}
+      {{#if resume.skills.length}}
+        <div id="skills" itemscope itemtype="http://schema.org/ListItem">
+          <h2 itemprop="name" itemref="#skills">Skills</h2>
+          <div class="row">
+            {{#each resume.skills}}
+              <div class="medium-6 large-3 columns">
+                <div class="callout-card {{level}} radius">
+                  {{#if level}}
+                    <div class="card-label">
+                      <div class="label-text">{{level}}</div>
+                    </div>
+                  {{/if}}
+                  {{#if keywords.length}}
+                    <div class="callout-card-content">
+                      {{#if name}}
+                        <h3 class="text-center name">{{name}}</h3>
+                        <!-- <meta name="position" content="{{@index}}" /> -->
+                      {{/if}}
+                      <ul class="csv keywords">
+                        {{#each keywords}}
+                          <!-- <meta name="position" content="{{@index}}" /> -->
+                          <li itemprop="item">{{.}}</li>
+                        {{/each}}
+                      </ul>
+                  {{/if}}
+                  </div>
+                </div>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      {{/if}}
+      {{#if resume.work.length}}
+        <div id="work">
+          <h2>Work Experience</h2>
+          {{#each resume.work}}
+            <div class="row" itemprop="worksFor" itemscope itemtype="http://schema.org/OrganizationRole">
+              <meta itemprop="startDate" content="{{startDate}}" />
+              {{#if endDate}}
+                <meta itemprop="endDate" content="{{endDate}}" />
+              {{/if}}
+              <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" class="callout-card radius primary">
+                <div class="row">
+                  <div class="callout-card-content">
+                    <div class="row">
+                      {{#if position}}
+                        <div class="small-12 medium-5 large-5 columns">
+                          <span class="position">{{position}}</span>
+                        </div>
+                      {{else}}
+                        <div class="small-12 medium-5 large-5 columns"></div>
+                      {{/if}}
+                      {{#if company}}
+                        <div class="small-12 medium-4 large-4 columns">
+                          {{#if website}}
+                            <a itemprop="url" href="{{website}}" target="_blank"><span itemprop="name">{{company}}</span></a>
+                          {{else}}
+                            <span itemprop="name">{{company}}</span>
+                          {{/if}}
+                        </div>
+                      {{else}}
+                        <div class="small-12 medium-4 large-4 columns"></div>
+                      {{/if}}
+                      <div class="small-12 medium-3 large-3 columns">
+                        <p class="dates">
+                          {{#if startDate}}
+                            <span class="startDate">{{prettifyDate startDate}}</span>&nbsp;&ndash;&nbsp;
+                          {{/if}}
+                          {{#if endDate}}
+                            <span class="endDate">{{prettifyDate endDate}}</span>
+                          {{else}}
+                            <span class="endDate">Present</span>
+                          {{/if}}
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      {{#if summary}}
+                        <div class="small-12 medium-12 large-12 columns">
+                          <div class="lead summary">{{summary}}</div>
+                        </div>
+                      {{/if}}
+                    </div>
+                    {{#if highlights.length}}
+                      <div class="row">
+                        <div class="small-12 medium-12 large-12 columns">
+                          <ul class="highlights">
+                            {{#each highlights}}
+                              <li>{{.}}</li>
+                            {{/each}}
+                          </ul>
+                        </div>
+                      </div>
+                    {{/if}}
+                  </div>
+>>>>>>> 5af88933920236bf23ab62f1af37a7666d5a79d9
                 </div>
               </div>
             </div>
           {{/each}}
         </div>
       {{/if}}
+<<<<<<< HEAD
       {{#if resume.awards.length}}
         <div id="awards">
           <h2>Awards</h2>
@@ -350,6 +528,167 @@
                         <div class="summary small-12 medium-12 large-12 columns">
                           <p class="lead summary">{{summary}}</p>
                         </div>
+=======
+      {{#if resume.volunteer.length}}
+            <div id="volunteer">
+              <h2>Volunteer</h2>
+              {{#each resume.volunteer}}
+              <div class="row">
+                <div class="callout-card radius primary">
+                  <div class="row">
+                    <div class="callout-card-content">
+                      <div class="row">
+                        {{#if position}}
+                          <div class="small-12 medium-5 large-5 columns">
+                            <span class="position">{{position}}</span>
+                          </div>
+                        {{else}}
+                          <div class="small-12 medium-5 large-5 columns"></div>
+                        {{/if}}
+                        {{#if company}}
+                          <div class="small-12 medium-4 large-4 columns">
+                            {{#if website}}
+                              <a href="{{website}}" target="_blank">{{organization}}</a>
+                            {{else}}
+                              <span>{{organization}}</span>
+                            {{/if}}
+                          </div>
+                        {{else}}
+                          <div class="small-12 medium-4 large-4 columns"></div>
+                        {{/if}}
+                        <div class="small-12 medium-3 large-3 columns">
+                          <p class="dates">
+                            {{#if startDate}}
+                              <span class="startDate">{{prettifyDate startDate}}</span>&nbsp;&ndash;&nbsp;
+                            {{/if}}
+                            {{#if endDate}}
+                              <span class="endDate">{{prettifyDate endDate}}</span>
+                            {{else}}
+                              <span class="endDate">Present</span>
+                            {{/if}}
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        {{#if summary}}
+                          <div class="small-12 medium-12 large-12 columns">
+                            <div class="lead summary">{{summary}}</div>
+                          </div>
+                        {{/if}}
+                      </div>
+                      {{#if highlights.length}}
+                        <div class="row">
+                          <div class="small-12 medium-12 large-12 columns">
+                            <ul class="highlights">
+                              {{#each highlights}}
+                                <li>{{.}}</li>
+                              {{/each}}
+                            </ul>
+                          </div>
+                        </div>
+                      {{/if}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{/each}}
+        </div>
+      {{/if}}
+      {{#if resume.education.length}}
+        <div id="education">
+          <h2>Education</h2>
+          {{#each resume.education}}
+            <div itemprop="alumniOf" itemscope itemtype="http://schema.org/OrganizationRole" class="callout-card radius secondary">
+              <meta itemprop="startDate" content="{{startDate}}" />
+              {{#if endDate}}
+                <meta itemprop="endDate" content="{{endDate}}" />
+              {{/if}}
+              <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                <div class="callout-card-content">
+                    <div class="small-6 medium-2 large-2 columns">
+                      <div class="studyType">{{studyType}}</div>
+                      {{#if gpa}}
+                        <p class="gpa">
+                          <span class="label">GPA:</span>&nbsp;&nbsp;<span class="value">{{gpa}}</span>
+                        </p>
+                    </div>
+                  {{else}}
+                    <div class="small-6 medium-2 large-2 columns"> </div>
+                  {{/if}}
+                  {{#if area}}
+                    <div class="small-6 medium-2 large-3 columns">
+                      <span class="area">{{area}}</span>
+                    </div>
+                  {{else}}
+                    <div class="small-6 medium-2 large-3 columns">
+                    </div>
+                  {{/if}}
+                  {{#if institution}}
+                    <div class="small-12 medium-4 large-4 columns">
+                      <span itemprop="name" class="institution">{{#markdown}}{{institution}}{{/markdown}}</span>
+                    </div>
+                  {{/if}}
+                  <div class="small-6 medium-2 large-3 columns">
+                    <p class="dates">
+                      {{#if startDate}}
+                        <span class="startDate">{{prettifyDate startDate}}</span>&nbsp;&ndash;&nbsp;
+                      {{/if}}
+                      {{#if endDate}}
+                        <span class="endDate">{{prettifyDate endDate}}</span>
+                      {{else}}
+                        <span class="endDate">Present</span>
+                      {{/if}}
+                    </p>
+                  </div>
+                </div>
+                {{#if courses.length}}
+                  <div class="row">
+                    <div class="small-12 columns">
+                      <ul class="csv courses">
+                        {{#each courses}}
+                          <li>{{.}}</li>
+                        {{/each}}
+                      </ul>
+                    </div>
+                  </div>
+                {{/if}}
+              </div>
+            </div>
+          {{/each}}
+        </div>
+      {{/if}}
+      {{#if resume.awards.length}}
+
+        <div id="awards">
+          <h2>Awards</h2>
+          {{#each resume.awards}}
+            <div class="row">
+              <div class="callout-card radius primary">
+                <div class="row">
+                  <div class="callout-card-content">
+                    <div class="row">
+                      {{#if title}}
+                        <div class="small-12 medium-6 large-6 columns">
+                          {{title}}
+                        </div>
+                      {{/if}}
+                      {{#if awarder}}
+                        <div class="small-12 medium-4 large-4 columns">
+                          from:  {{awarder}}
+                        </div>
+                      {{/if}}
+                      {{#if date}}
+                        <div class="dates small-12 medium-2 large-2 columns">
+                          {{prettifyDate date}}
+                        </div>
+                      {{/if}}
+                    </div>
+                    {{#if summary}}
+                      <div class="row">
+                        <div class="summary small-12 medium-12 large-12 columns">
+                          <p class="lead summary">{{summary}}</p>
+                        </div>
+>>>>>>> 5af88933920236bf23ab62f1af37a7666d5a79d9
                       </div>
                     {{/if}}
                   </div>
@@ -381,12 +720,20 @@
               </div>
             {{/each}}
           </div>
+<<<<<<< HEAD
         </div>
       {{/if}}
       {{#if resume.interests.length}}
         <div id="interests" class="row">
           <h2>Interests</h2>
           <div class="row columns">
+=======
+      {{/if}}
+      {{#if resume.interests.length}}
+          <div id="interests" class="row">
+            <h2>Interests</h2>
+            <div class="row">
+>>>>>>> 5af88933920236bf23ab62f1af37a7666d5a79d9
             {{#each resume.interests}}
               <button class="hollow button secondary">
                 {{#if name}}
@@ -395,11 +742,24 @@
                   </span>
                 {{/if}}
                 {{#if keywords.length}}
+<<<<<<< HEAD
                   <ul class="csv keywords">
                     {{#each keywords}}
                       <li>{{.}}</li>
                     {{/each}}
                   </ul>
+=======
+                {{#if name}}
+                  <span class="name">
+                    :&nbsp;&nbsp;
+                  </span>
+                {{/if}}
+                  <span class="keywords">
+                    {{#each keywords}}
+                      {{.}}
+                    {{/each}}
+                  </span>
+>>>>>>> 5af88933920236bf23ab62f1af37a7666d5a79d9
                 {{/if}}
               </button>
             {{/each}}
@@ -411,7 +771,11 @@
           <h2>References</h2>
           {{#each resume.references}}
             <div class="row">
+<<<<<<< HEAD
               <div class="item columns">
+=======
+              <div class="item">
+>>>>>>> 5af88933920236bf23ab62f1af37a7666d5a79d9
                 {{#if reference}}
                   <blockquote class="reference">
                     {{reference}}
@@ -426,7 +790,11 @@
         </div>
       {{/if}}
       {{#if resume.publications.length}}
+<<<<<<< HEAD
         <div id="publications" class="row">
+=======
+        <div id="publications">
+>>>>>>> 5af88933920236bf23ab62f1af37a7666d5a79d9
           <h2>Publications</h2>
           {{#each resume.publications}}
             <div class="callout-card radius secondary">
