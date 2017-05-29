@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-zurb",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "JSON Resume Template with zurb Foundation for Sites.",
   "main": "index.js",
   "author": "David England <DavidEEngland@Outlook.com>",
@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/DavidEngland/jsonresume-theme-zurb",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "marked": "latest"
+    "handlebars": "^2.0.0-alpha.4"
   },
   "devDependencies": {},
   "scripts": {
