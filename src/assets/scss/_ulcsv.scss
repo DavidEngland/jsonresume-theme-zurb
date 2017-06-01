@@ -1,0 +1,23 @@
+ul.csv {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline;
+    &:not(:first-child):after {
+      content: ",";
+    }
+    &:last-child:not(:first-child) {
+      &:before {
+        content: " and ";
+      }
+      &:after {
+        content: ".";
+      }
+    }
+  }
+  &.courses li:first-child:before {
+    font-weight: 700;
+    content: "Courses:  ";
+  }
+}

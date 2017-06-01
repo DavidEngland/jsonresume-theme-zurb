@@ -1,0 +1,28 @@
+{{#if resume.interests.length}}
+  <div id="interests" class="row">
+    <h2>Interests</h2>
+    <div class="row columns">
+      {{#each resume.interests}}
+        <button class="hollow button secondary">
+          {{#if name}}
+            <span class="name">
+              {{name}}
+            </span>
+          {{/if}}
+          {{#if keywords.length}}
+          {{#if name}}
+            <span class="name">
+              :&nbsp;&nbsp;
+            </span>
+          {{/if}}
+            <span class="keywords">
+              {{#each keywords}}
+                {{.}}
+              {{/each}}
+            </span>
+          {{/if}}
+        </button>
+      {{/each}}
+    </div>
+  </div>
+{{/if}}

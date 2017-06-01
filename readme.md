@@ -4,15 +4,23 @@ JSON Resume Template with zurb Foundation for Sites.
 
 Lot of JSONresume themes out there using bootsrtap, thought I would try one with the Zurb Foundation framework.  Also has schema microdata.
 
+[Demo](http://registry.jsonresume.org/davidengland?theme=zurb)
+
+## Installation
+
+```sh
+npm install jsonresume-theme-zurb --save
+```
+Use yarn or
+
+```sh
+npm install
+```
+
+
 ## Dependencies
 
 - [handlebars](https://github.com/wycats/handlebars.js): Handlebars provides the power necessary to let you build semantic templates effectively with no frustration
-- [marked](https://github.com/chjj/marked): A markdown parser built for speed
-
-## Dev Dependencies
-
-
-None
 
 ## License
 

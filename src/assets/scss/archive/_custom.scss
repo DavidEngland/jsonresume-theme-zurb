@@ -1,0 +1,101 @@
+.avatar {
+  max-height: 128px;
+  width: auto;
+  border-radius: 50%
+}
+
+a[href^="mailto:"]:before {
+  content: "\1F4E7 ";
+}
+
+.website:before {
+  content: "\1F517";
+}
+
+a[href^="tel:"]:before {
+  content: "\1F4F1";
+}
+
+.important:before {
+  content: "\27BE";
+}
+
+blockquote:before {
+  content: "\275D";
+}
+
+blockquote:after {
+  content: "\275E";
+}
+
+#education {
+  .gpa .value {
+    font-weight: 700;
+  }
+
+  h3.institution {
+    font-size  : 24px;
+    font-size  : 1.5rem;
+    line-height: 1;
+  }
+}
+
+#info {
+  .thumbnail {
+    box-shadow: none;
+  }
+
+  > div:nth-child(2) {
+    padding-left: 10px;
+    border-left : thick double #2d2;
+  }
+}
+
+#interests .name {
+  font-weight: 700
+}
+
+#languages .fluency {
+  font-style: italic;
+}
+
+#location .postalCode {
+  font-weight: 700;
+}
+
+#publications {
+  page-break-before: always;
+
+  .publisher {
+    font-style: italic;
+  }
+
+  .releaseDate {
+    font-weight: 700;
+  }
+}
+
+#work .position {
+  font-weight: 700;
+}
+
+#references cite {
+  float: right;
+}
+
+a[href^="http:://twitter.com"]:before {
+  direction   : rtl;
+  unicode-bidi: bidi-override;
+  content     : "\1F426";
+}
+
+.copywrite {
+  font-size: x-small;
+}
+
+.dates {
+  text-align: right;
+  @include breakpoint(medium) {
+    text-align: left;
+  }
+}

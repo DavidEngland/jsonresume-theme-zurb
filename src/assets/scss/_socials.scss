@@ -1,0 +1,952 @@
+$white: #ffffff;
+$social-button-size: 3.125rem;
+$social-button-border-width: 0.125rem;
+$social-button-font-size: 1.5625rem;
+$social-button-line-height: 2em;
+$social-button-border-radius: 1.6875rem;
+$social-button-transition: all 0.5s ease;
+$social-button-margin: 0.25rem;
+
+$v-500px: 500px;
+$v-8tracks: 8tracks;
+// Source: https://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
+$social-brand-500px: #58a9de;
+$social-brand-8tracks: #122c4b;
+$social-brand-airbnb: #ff5a5f;
+$social-brand-alliance: #144587;
+$social-brand-amazon: #ff9900;
+$social-brand-amplement: #0996c3;
+$social-brand-android: #8ec047;
+$social-brand-angellist: #000000;
+$social-brand-apple: #b9bfc1;
+$social-brand-appnet: #494949;
+$social-brand-baidu: #2629d9;
+$social-brand-bandcamp: #619aa9;
+$social-brand-battlenet: #0096cd;
+$social-brand-beam: #536dfe;
+$social-brand-bebee: #f28f16;
+$social-brand-bebo: #ef1011;
+$social-brand-behance: #000000;
+$social-brand-blizzard: #01b2f1;
+$social-brand-blogger: #ec661c;
+$social-brand-buffer: #000000;
+$social-brand-chrome: #757575;
+$social-brand-coderwall: #3e8dcc;
+$social-brand-curse: #f26522;
+$social-brand-dailymotion: #004e72;
+$social-brand-deezer: #32323d;
+$social-brand-delicious: #020202;
+$social-brand-deviantart: #c5d200;
+$social-brand-diablo: #8b1209;
+$social-brand-digg: #1d1d1b;
+$social-brand-discord: #7289da;
+$social-brand-disqus: #2e9fff;
+$social-brand-douban: #3ca353;
+$social-brand-draugiem: #ffa32b;
+$social-brand-dribbble: #e84d88;
+$social-brand-drupal: #00598e;
+$social-brand-ebay: #333333;
+$social-brand-ello: #000000;
+$social-brand-endomondo: #86ad00;
+$social-brand-envato: #597c3a;
+$social-brand-etsy: #f56400;
+$social-brand-facebook: #3e5b98;
+$social-brand-feedburner: #ffcc00;
+$social-brand-filmweb: #ffc404;
+$social-brand-firefox: #484848;
+$social-brand-flattr: #f67c1a;
+$social-brand-flickr: #1e1e1b;
+$social-brand-formulr: #ff5a60;
+$social-brand-forrst: #5b9a68;
+$social-brand-foursquare: #f94877;
+$social-brand-friendfeed: #2f72c4;
+$social-brand-github: #221e1b;
+$social-brand-goodreads: #463020;
+$social-brand-google: #4285f4;
+$social-brand-googlegroups: #4f8ef5;
+$social-brand-googlephotos: #212121;
+$social-brand-googleplus: #dd4b39;
+$social-brand-google-plus: #dd4b39;
+$social-brand-googlescholar: #4285f4;
+$social-brand-grooveshark: #000000;
+$social-brand-hackerrank: #2ec866;
+$social-brand-hearthstone: #ec9313;
+$social-brand-hellocoton: #d30d66;
+$social-brand-hereos: #2397f7;
+$social-brand-hitbox: #99cc00;
+$social-brand-horde: #84121c;
+$social-brand-houzz: #7cc04b;
+$social-brand-icq: #7ebd00;
+$social-brand-identica: #000000;
+$social-brand-imdb: #e8ba00;
+$social-brand-instagram: #000000;
+$social-brand-issuu: #f26f61;
+$social-brand-istock: #000000;
+$social-brand-itunes: #ff5e51;
+$social-brand-keybase: #ff7100;
+$social-brand-lanyrd: #3c80c9;
+$social-brand-lastfm: #d41316;
+$social-brand-line: #00b901;
+$social-brand-linkedin: #3371b7;
+$social-brand-livejournal: #0099cc;
+$social-brand-lyft: #ff00bf;
+$social-brand-macos: #000000;
+$social-brand-mail: #000000;
+$social-brand-medium: #000000;
+$social-brand-meetup: #e2373c;
+$social-brand-mixcloud: #000000;
+$social-brand-modelmayhem: #000000;
+$social-brand-mumble: #5ab5d1;
+$social-brand-myspace: #323232;
+$social-brand-newsvine: #075b2f;
+$social-brand-nintendo: #f58a33;
+$social-brand-npm: #c12127;
+$social-brand-odnoklassniki: #f48420;
+$social-brand-openid: #f78c40;
+$social-brand-opera: #ff1b2d;
+$social-brand-outlook: #0072c6;
+$social-brand-overwatch: #9e9e9e;
+$social-brand-pandora: #224099;
+$social-brand-patreon: #e44727;
+$social-brand-paypal: #009cde;
+$social-brand-periscope: #3aa4c6;
+$social-brand-persona: #e6753d;
+$social-brand-pinterest: #c92619;
+$social-brand-play: #000000;
+$social-brand-player: #6e41bd;
+$social-brand-playstation: #000000;
+$social-brand-pocket: #ed4055;
+$social-brand-qq: #4297d3;
+$social-brand-quora: #cb202d;
+$social-brand-raidcall: #073558;
+$social-brand-ravelry: #b6014c;
+$social-brand-reddit: #e74a1e;
+$social-brand-renren: #2266b0;
+$social-brand-researchgate: #00ccbb;
+$social-brand-residentadvisor: #b3be1b;
+$social-brand-reverbnation: #000000;
+$social-brand-rss: #f26109;
+$social-brand-sharethis: #01bf01;
+$social-brand-skype: #28abe3;
+$social-brand-slideshare: #4ba3a6;
+$social-brand-smugmug: #acfd32;
+$social-brand-snapchat: #fffa37;
+$social-brand-songkick: #f80046;
+$social-brand-soundcloud: #fe3801;
+$social-brand-spotify: #7bb342;
+$social-brand-stackexchange: #2f2f2f;
+$social-brand-stackoverflow: #fd9827;
+$social-brand-starcraft: #002250;
+$social-brand-stayfriends: #f08a1c;
+$social-brand-steam: #171a21;
+$social-brand-storehouse: #25b0e6;
+$social-brand-strava: #fc4c02;
+$social-brand-streamjar: #503a60;
+$social-brand-stumbleupon: #e64011;
+$social-brand-swarm: #fc9d3c;
+$social-brand-teamspeak: #465674;
+$social-brand-teamviewer: #168ef4;
+$social-brand-technorati: #5cb030;
+$social-brand-telegram: #0088cc;
+$social-brand-tripadvisor: #4b7e37;
+$social-brand-tripit: #1982c3;
+$social-brand-triplej: #e53531;
+$social-brand-tumblr: #45556c;
+$social-brand-twitch: #6441a5;
+$social-brand-twitter: #4da7de;
+$social-brand-uber: #000000;
+$social-brand-ventrilo: #77808a;
+$social-brand-viadeo: #e4a000;
+$social-brand-viber: #7b519d;
+$social-brand-viewbug: #2b9fcf;
+$social-brand-vimeo: #51b5e7;
+$social-brand-vine: #00b389;
+$social-brand-vkontakte: #5a7fa6;
+$social-brand-warcraft: #1eb10a;
+$social-brand-wechat: #09b507;
+$social-brand-weibo: #e31c34;
+$social-brand-whatsapp: #20b038;
+$social-brand-wikipedia: #000000;
+$social-brand-windows: #00bdf6;
+$social-brand-wordpress: #464646;
+$social-brand-wykop: #328efe;
+$social-brand-xbox: #92c83e;
+$social-brand-xing: #005a60;
+$social-brand-yahoo: #6e2a85;
+$social-brand-yammer: #1175c4;
+$social-brand-yandex: #ff0000;
+$social-brand-yelp: #c83218;
+$social-brand-younow: #61c03e;
+$social-brand-youtube: #e02a20;
+$social-brand-zapier: #ff4a00;
+$social-brand-zerply: #9dbc7a;
+$social-brand-zomato: #cb202d;
+$social-brand-zynga: #dc0606;
+$social-brand-spreadshirt: #00b2a6;
+$social-brand-trello: #0079bf;
+$social-brand-gamejolt: #191919;
+$social-brand-tunein: #36b4a7;
+$social-brand-bloglovin: #000000;
+$social-brand-gamewisp: #f8a853;
+$social-brand-messenger: #0084ff;
+
+@function escape_leading_numbers($s) {
+  $first-char: str_slice(#{$s}, 0, 1);
+  $found: index('1' '2' '3' '4' '5' '6' '7' '8' '9' '0', $first-char);
+  @return if($found, unquote(str-insert(str-slice(#{$s}, 2), "\\3#{$first-char} ", 1)), $s);
+}
+
+@mixin social-button($brand-color, $brand-icon) {
+  background: $brand-color;
+
+  &:focus,
+  &:hover {
+    color       : $brand-color;
+    background  : $body-background;
+    border-color: $brand-color;
+  }
+}
+
+.rounded-social-buttons {
+
+  .social-button {
+    display        : inline-block;
+    position       : relative;
+    cursor         : pointer;
+    width          : $social-button-size;
+    height         : $social-button-size;
+    border         : $social-button-border-width solid transparent;
+    padding        : 0;
+    text-decoration: none;
+    text-align     : center;
+    color          : $body-background;
+    font-size      : $social-button-font-size;
+    font-weight    : normal;
+    line-height    : $social-button-line-height;
+    border-radius  : $social-button-border-radius;
+    transition     : $social-button-transition;
+    margin-right   : $social-button-margin;
+    margin-bottom  : $social-button-margin;
+
+    &:focus,
+    &:hover {
+      transform: rotate(360deg);
+    }
+
+    & .#{escape_leading_numbers($v-500px)} {
+      @include social-button($social-brand-500px, "\f5ad")
+    }
+
+    & .#{escape_leading_numbers(8tracks)} {
+      @include social-button($social-brand-8tracks, "\f234")
+    }
+
+    &.airbnb {
+      @include social-button($social-brand-airbnb, "\ff56")
+    }
+
+    &.alliance {
+      @include social-button($social-brand-alliance, "\f448")
+    }
+
+    &.amazon {
+      @include social-button($social-brand-amazon, "\ff90")
+    }
+
+    &.amplement {
+      @include social-button($social-brand-amplement, "\f99b")
+    }
+
+    &.android {
+      @include social-button($social-brand-android, "\f8b4")
+    }
+
+    &.angellist {
+      @include social-button($social-brand-angellist, "\f000")
+    }
+
+    &.apple {
+      @include social-button($social-brand-apple, "\fbbb")
+    }
+
+    &.appnet {
+      @include social-button($social-brand-appnet, "\f444")
+    }
+
+    &.baidu {
+      @include social-button($social-brand-baidu, "\f22d")
+    }
+
+    &.bandcamp {
+      @include social-button($social-brand-bandcamp, "\f6aa")
+    }
+
+    &.battlenet {
+      @include social-button($social-brand-battlenet, "\f09c")
+    }
+
+    &.beam {
+      @include social-button($social-brand-beam, "\f56f")
+    }
+
+    &.bebee {
+      @include social-button($social-brand-bebee, "\fe81")
+    }
+
+    &.bebo {
+      @include social-button($social-brand-bebo, "\fe11")
+    }
+
+    &.behance {
+      @include social-button($social-brand-behance, "\f000")
+    }
+
+    &.blizzard {
+      @include social-button($social-brand-blizzard, "\f0ae")
+    }
+
+    &.blogger {
+      @include social-button($social-brand-blogger, "\fe62")
+    }
+
+    &.buffer {
+      @include social-button($social-brand-buffer, "\f000")
+    }
+
+    &.chrome {
+      @include social-button($social-brand-chrome, "\f777")
+    }
+
+    &.coderwall {
+      @include social-button($social-brand-coderwall, "\f48c")
+    }
+
+    &.curse {
+      @include social-button($social-brand-curse, "\fe62")
+    }
+
+    &.dailymotion {
+      @include social-button($social-brand-dailymotion, "\f057")
+    }
+
+    &.deezer {
+      @include social-button($social-brand-deezer, "\f334")
+    }
+
+    &.delicious {
+      @include social-button($social-brand-delicious, "\f000")
+    }
+
+    &.deviantart {
+      @include social-button($social-brand-deviantart, "\fcc0")
+    }
+
+    &.diablo {
+      @include social-button($social-brand-diablo, "\f811")
+    }
+
+    &.digg {
+      @include social-button($social-brand-digg, "\f222")
+    }
+
+    &.discord {
+      @include social-button($social-brand-discord, "\f78d")
+    }
+
+    &.disqus {
+      @include social-button($social-brand-disqus, "\f3ff")
+    }
+
+    &.douban {
+      @include social-button($social-brand-douban, "\f4a5")
+    }
+
+    &.draugiem {
+      @include social-button($social-brand-draugiem, "\ffa3")
+    }
+
+    &.dribbble {
+      @include social-button($social-brand-dribbble, "\fe58")
+    }
+
+    &.drupal {
+      @include social-button($social-brand-drupal, "\f058")
+    }
+
+    &.ebay {
+      @include social-button($social-brand-ebay, "\f333")
+    }
+
+    &.ello {
+      @include social-button($social-brand-ello, "\f000")
+    }
+
+    &.endomondo {
+      @include social-button($social-brand-endomondo, "\f8a0")
+    }
+
+    &.envato {
+      @include social-button($social-brand-envato, "\f573")
+    }
+
+    &.etsy {
+      @include social-button($social-brand-etsy, "\fe60")
+    }
+
+    &.facebook {
+      @include social-button($social-brand-facebook, "\f459")
+    }
+
+    &.feedburner {
+      @include social-button($social-brand-feedburner, "\ffc0")
+    }
+
+    &.filmweb {
+      @include social-button($social-brand-filmweb, "\ffc0")
+    }
+
+    &.firefox {
+      @include social-button($social-brand-firefox, "\f444")
+    }
+
+    &.flattr {
+      @include social-button($social-brand-flattr, "\fe72")
+    }
+
+    &.flickr {
+      @include social-button($social-brand-flickr, "\f222")
+    }
+
+    &.formulr {
+      @include social-button($social-brand-formulr, "\ff56")
+    }
+
+    &.forrst {
+      @include social-button($social-brand-forrst, "\f596")
+    }
+
+    &.foursquare {
+      @include social-button($social-brand-foursquare, "\ff47")
+    }
+
+    &.friendfeed {
+      @include social-button($social-brand-friendfeed, "\f37c")
+    }
+
+    &.github {
+      @include social-button($social-brand-github, "\f222")
+    }
+
+    &.goodreads {
+      @include social-button($social-brand-goodreads, "\f432")
+    }
+
+    &.google {
+      @include social-button($social-brand-google, "\f48e")
+    }
+
+    &.googlegroups {
+      @include social-button($social-brand-googlegroups, "\f58e")
+    }
+
+    &.googlephotos {
+      @include social-button($social-brand-googlephotos, "\f222")
+    }
+
+    &.googleplus {
+      @include social-button($social-brand-googleplus, "\fd43")
+    }
+
+    &.google-plus {
+      @include social-button($social-brand-googleplus, "\fd43")
+    }
+
+    &.googlescholar {
+      @include social-button($social-brand-googlescholar, "\f48e")
+    }
+
+    &.grooveshark {
+      @include social-button($social-brand-grooveshark, "\f000")
+    }
+
+    &.hackerrank {
+      @include social-button($social-brand-hackerrank, "\f3c6")
+    }
+
+    &.hearthstone {
+      @include social-button($social-brand-hearthstone, "\fe91")
+    }
+
+    &.hellocoton {
+      @include social-button($social-brand-hellocoton, "\fc16")
+    }
+
+    &.hereos {
+      @include social-button($social-brand-hereos, "\f29f")
+    }
+
+    &.hitbox {
+      @include social-button($social-brand-hitbox, "\f9c0")
+    }
+
+    &.horde {
+      @include social-button($social-brand-horde, "\f812")
+    }
+
+    &.houzz {
+      @include social-button($social-brand-houzz, "\fcb4")
+    }
+
+    &.icq {
+      @include social-button($social-brand-icq, "\f7b0")
+    }
+
+    &.identica {
+      @include social-button($social-brand-identica, "\f000")
+    }
+
+    &.imdb {
+      @include social-button($social-brand-imdb, "\feb0")
+    }
+
+    &.instagram {
+      @include social-button($social-brand-instagram, "\f000")
+    }
+
+    &.issuu {
+      @include social-button($social-brand-issuu, "\fe76")
+    }
+
+    &.istock {
+      @include social-button($social-brand-istock, "\f000")
+    }
+
+    &.itunes {
+      @include social-button($social-brand-itunes, "\ff65")
+    }
+
+    &.keybase {
+      @include social-button($social-brand-keybase, "\ff70")
+    }
+
+    &.lanyrd {
+      @include social-button($social-brand-lanyrd, "\f48c")
+    }
+
+    &.lastfm {
+      @include social-button($social-brand-lastfm, "\fc11")
+    }
+
+    &.line {
+      @include social-button($social-brand-line, "\f0b0")
+    }
+
+    &.linkedin {
+      @include social-button($social-brand-linkedin, "\f37b")
+    }
+
+    &.livejournal {
+      @include social-button($social-brand-livejournal, "\f09c")
+    }
+
+    &.lyft {
+      @include social-button($social-brand-lyft, "\ff0b")
+    }
+
+    &.macos {
+      @include social-button($social-brand-macos, "\f000")
+    }
+
+    &.mail {
+      @include social-button($social-brand-mail, "\f000")
+    }
+
+    &.medium {
+      @include social-button($social-brand-medium, "\f000")
+    }
+
+    &.meetup {
+      @include social-button($social-brand-meetup, "\fd34")
+    }
+
+    &.mixcloud {
+      @include social-button($social-brand-mixcloud, "\f000")
+    }
+
+    &.modelmayhem {
+      @include social-button($social-brand-modelmayhem, "\f000")
+    }
+
+    &.mumble {
+      @include social-button($social-brand-mumble, "\f5bc")
+    }
+
+    &.myspace {
+      @include social-button($social-brand-myspace, "\f333")
+    }
+
+    &.newsvine {
+      @include social-button($social-brand-newsvine, "\f053")
+    }
+
+    &.nintendo {
+      @include social-button($social-brand-nintendo, "\fe83")
+    }
+
+    &.npm {
+      @include social-button($social-brand-npm, "\fb22")
+    }
+
+    &.odnoklassniki {
+      @include social-button($social-brand-odnoklassniki, "\fe82")
+    }
+
+    &.openid {
+      @include social-button($social-brand-openid, "\ff84")
+    }
+
+    &.opera {
+      @include social-button($social-brand-opera, "\ff23")
+    }
+
+    &.outlook {
+      @include social-button($social-brand-outlook, "\f07c")
+    }
+
+    &.overwatch {
+      @include social-button($social-brand-overwatch, "\f999")
+    }
+
+    &.pandora {
+      @include social-button($social-brand-pandora, "\f249")
+    }
+
+    &.patreon {
+      @include social-button($social-brand-patreon, "\f442")
+    }
+
+    &.paypal {
+      @include social-button($social-brand-paypal, "\f09d")
+    }
+
+    &.periscope {
+      @include social-button($social-brand-periscope, "\faac")
+    }
+
+    &.persona {
+      @include social-button($social-brand-persona, "\fe74")
+    }
+
+    &.pinterest {
+      @include social-button($social-brand-pinterest, "\fc21")
+    }
+
+    &.play {
+      @include social-button($social-brand-play, "\f000")
+    }
+
+    &.player {
+      @include social-button($social-brand-player, "\f64b")
+    }
+
+    &.playstation {
+      @include social-button($social-brand-playstation, "\f000")
+    }
+
+    &.pocket {
+      @include social-button($social-brand-pocket, "\fe45")
+    }
+
+    &.qq {
+      @include social-button($social-brand-qq, "\f49c")
+    }
+
+    &.quora {
+      @include social-button($social-brand-quora, "\fc23")
+    }
+
+    &.raidcall {
+      @include social-button($social-brand-raidcall, "\f055")
+    }
+
+    &.ravelry {
+      @include social-button($social-brand-ravelry, "\fb04")
+    }
+
+    &.reddit {
+      @include social-button($social-brand-reddit, "\fe42")
+    }
+
+    &.renren {
+      @include social-button($social-brand-renren, "\f26a")
+    }
+
+    &.researchgate {
+      @include social-button($social-brand-researchgate, "\f0cb")
+    }
+
+    &.residentadvisor {
+      @include social-button($social-brand-residentadvisor, "\fbb2")
+    }
+
+    &.reverbnation {
+      @include social-button($social-brand-reverbnation, "\f000")
+    }
+
+    &.rss {
+      @include social-button($social-brand-rss, "\fe61")
+    }
+
+    &.sharethis {
+      @include social-button($social-brand-sharethis, "\f0b0")
+    }
+
+    &.skype {
+      @include social-button($social-brand-skype, "\f2ad")
+    }
+
+    &.slideshare {
+      @include social-button($social-brand-slideshare, "\f4aa")
+    }
+
+    &.smugmug {
+      @include social-button($social-brand-smugmug, "\faf3")
+    }
+
+    &.snapchat {
+      @include social-button($social-brand-snapchat, "\fff3")
+    }
+
+    &.songkick {
+      @include social-button($social-brand-songkick, "\ff04")
+    }
+
+    &.soundcloud {
+      @include social-button($social-brand-soundcloud, "\ff30")
+    }
+
+    &.spotify {
+      @include social-button($social-brand-spotify, "\fbb4")
+    }
+
+    &.stackexchange {
+      @include social-button($social-brand-stackexchange, "\f333")
+    }
+
+    &.stackoverflow {
+      @include social-button($social-brand-stackoverflow, "\ff92")
+    }
+
+    &.starcraft {
+      @include social-button($social-brand-starcraft, "\f025")
+    }
+
+    &.stayfriends {
+      @include social-button($social-brand-stayfriends, "\fe82")
+    }
+
+    &.steam {
+      @include social-button($social-brand-steam, "\f122")
+    }
+
+    &.storehouse {
+      @include social-button($social-brand-storehouse, "\f2ae")
+    }
+
+    &.strava {
+      @include social-button($social-brand-strava, "\ff40")
+    }
+
+    &.streamjar {
+      @include social-button($social-brand-streamjar, "\f536")
+    }
+
+    &.stumbleupon {
+      @include social-button($social-brand-stumbleupon, "\fe41")
+    }
+
+    &.swarm {
+      @include social-button($social-brand-swarm, "\ff94")
+    }
+
+    &.teamspeak {
+      @include social-button($social-brand-teamspeak, "\f457")
+    }
+
+    &.teamviewer {
+      @include social-button($social-brand-teamviewer, "\f18e")
+    }
+
+    &.technorati {
+      @include social-button($social-brand-technorati, "\f5a3")
+    }
+
+    &.telegram {
+      @include social-button($social-brand-telegram, "\f08c")
+    }
+
+    &.tripadvisor {
+      @include social-button($social-brand-tripadvisor, "\f473")
+    }
+
+    &.tripit {
+      @include social-button($social-brand-tripit, "\f18b")
+    }
+
+    &.triplej {
+      @include social-button($social-brand-triplej, "\fd33")
+    }
+
+    &.tumblr {
+      @include social-button($social-brand-tumblr, "\f556")
+    }
+
+    &.twitch {
+      @include social-button($social-brand-twitch, "\f44a")
+    }
+
+    &.twitter {
+      @include social-button($social-brand-twitter, "\f5ad")
+    }
+
+    &.uber {
+      @include social-button($social-brand-uber, "\f000")
+    }
+
+    &.ventrilo {
+      @include social-button($social-brand-ventrilo, "\f788")
+    }
+
+    &.viadeo {
+      @include social-button($social-brand-viadeo, "\fd00")
+    }
+
+    &.viber {
+      @include social-button($social-brand-viber, "\f759")
+    }
+
+    &.viewbug {
+      @include social-button($social-brand-viewbug, "\f39c")
+    }
+
+    &.vimeo {
+      @include social-button($social-brand-vimeo, "\f5be")
+    }
+
+    &.vine {
+      @include social-button($social-brand-vine, "\f0b8")
+    }
+
+    &.vkontakte {
+      @include social-button($social-brand-vkontakte, "\f57a")
+    }
+
+    &.warcraft {
+      @include social-button($social-brand-warcraft, "\f2a1")
+    }
+
+    &.wechat {
+      @include social-button($social-brand-wechat, "\f1b0")
+    }
+
+    &.weibo {
+      @include social-button($social-brand-weibo, "\fd23")
+    }
+
+    &.whatsapp {
+      @include social-button($social-brand-whatsapp, "\f2a3")
+    }
+
+    &.wikipedia {
+      @include social-button($social-brand-wikipedia, "\f000")
+    }
+
+    &.windows {
+      @include social-button($social-brand-windows, "\f0be")
+    }
+
+    &.wordpress {
+      @include social-button($social-brand-wordpress, "\f444")
+    }
+
+    &.wykop {
+      @include social-button($social-brand-wykop, "\f38f")
+    }
+
+    &.xbox {
+      @include social-button($social-brand-xbox, "\f9c4")
+    }
+
+    &.xing {
+      @include social-button($social-brand-xing, "\f056")
+    }
+
+    &.yahoo {
+      @include social-button($social-brand-yahoo, "\f628")
+    }
+
+    &.yammer {
+      @include social-button($social-brand-yammer, "\f17c")
+    }
+
+    &.yandex {
+      @include social-button($social-brand-yandex, "\ff00")
+    }
+
+    &.yelp {
+      @include social-button($social-brand-yelp, "\fc31")
+    }
+
+    &.younow {
+      @include social-button($social-brand-younow, "\f6b4")
+    }
+
+    &.youtube {
+      @include social-button($social-brand-youtube, "\fd22")
+    }
+
+    &.zapier {
+      @include social-button($social-brand-zapier, "\ff40")
+    }
+
+    &.zerply {
+      @include social-button($social-brand-zerply, "\f9b7")
+    }
+
+    &.zomato {
+      @include social-button($social-brand-zomato, "\fc23")
+    }
+
+    &.zynga {
+      @include social-button($social-brand-zynga, "\fd00")
+    }
+
+    &.spreadshirt {
+      @include social-button($social-brand-spreadshirt, "\f0aa")
+    }
+
+    &.trello {
+      @include social-button($social-brand-trello, "\f07b")
+    }
+
+    &.gamejolt {
+      @include social-button($social-brand-gamejolt, "\f111")
+    }
+
+    &.tunein {
+      @include social-button($social-brand-tunein, "\f3ba")
+    }
+
+    &.bloglovin {
+      @include social-button($social-brand-bloglovin, "\f000")
+    }
+
+    &.gamewisp {
+      @include social-button($social-brand-gamewisp, "\ffa5")
+    }
+
+    &.messenger {
+      @include social-button($social-brand-messenger, "\f08f")
+    }
+  }
+}

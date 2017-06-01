@@ -1,0 +1,28 @@
+{{#if resume.publications.length}}
+    <div id="publications">
+        <h2>Publications</h2>
+        {{#each resume.publications}}
+        <div class="callout-card radius secondary">
+            <div class="callout-card-content" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                {{#if name}}
+                    <span class="name" itemprop="name">{{name}}</span>.&nbsp;&nbsp;
+                {{/if}}
+                {{#if publisher}}
+                    <span class="publisher" itemprop="publisher">{{publisher}}</span>
+                {{/if}}
+                {{#if releaseDate}}
+                    , <span class="releaseDate" itemprop="datePublished">{{prettifyDate releaseDate}}</span>
+                {{/if}}
+                {{#if website}}
+                    <span class="website"> &nbsp;<a itemprop="sameAs" href="{{website}}" target="_blank">{{decodeURI website}}</a></span>
+                {{/if}}
+                {{#if summary}}
+                    <div class="summary">
+                        <p itemprop="description">{{summary}}</p>
+                    </div>
+                {{/if}}
+            </div>
+          </div>
+        {{/each}}
+    </div>
+{{/if}}

@@ -1,0 +1,11 @@
+{{#if profiles.length}}
+    <div class="row">
+        <div id="profiles">
+            {{#each profiles}}
+                {{#if network}}
+                    <a href="{{url}}" class="icon-button {{toLower network}}" target="_blank"><i class="fi-social-{{toLower network}}"></i><span></span></a>
+                {{/if}}
+            {{/each}}
+        </div>
+    </div>
+{{/if}}

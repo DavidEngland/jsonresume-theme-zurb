@@ -1,6 +1,7 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
-var marked = require("marked");
+var URL = require("url");
+var nets = ["500px", "8tracks", "airbnb", "alliance", "amazon", "amplement", "android", "angellist", "apple", "appnet", "baidu", "bandcamp", "battlenet", "beam", "bebee", "bebo", "behance", "blizzard", "blogger", "buffer", "chrome", "coderwall", "curse", "dailymotion", "deezer", "delicious", "deviantart", "diablo", "digg", "discord", "disqus", "douban", "draugiem", "dribbble", "drupal", "ebay", "ello", "endomondo", "envato", "etsy", "facebook", "feedburner", "filmweb", "firefox", "flattr", "flickr", "formulr", "forrst", "foursquare", "friendfeed", "github", "goodreads", "google", "googlegroups", "googlephotos", "googleplus", "googlescholar", "grooveshark", "hackerrank", "hearthstone", "hellocoton", "hereos", "hitbox", "horde", "houzz", "icq", "identica", "imdb", "instagram", "issuu", "istock", "itunes", "keybase", "lanyrd", "lastfm", "line", "linkedin", "livejournal", "lyft", "macos", "mail", "medium", "meetup", "mixcloud", "modelmayhem", "mumble", "myspace", "newsvine", "nintendo", "npm", "odnoklassniki", "openid", "opera", "outlook", "overwatch", "pandora", "patreon", "paypal", "periscope", "persona", "pinterest", "play", "player", "playstation", "pocket", "qq", "quora", "raidcall", "ravelry", "reddit", "renren", "researchgate", "residentadvisor", "reverbnation", "rss", "sharethis", "skype", "slideshare", "smugmug", "snapchat", "songkick", "soundcloud", "spotify", "stackexchange", "stackoverflow", "starcraft", "stayfriends", "steam", "storehouse", "strava", "streamjar", "stumbleupon", "swarm", "teamspeak", "teamviewer", "technorati", "telegram", "tripadvisor", "tripit", "triplej", "tumblr", "twitch", "twitter", "uber", "ventrilo", "viadeo", "viber", "viewbug", "vimeo", "vine", "vkontakte", "warcraft", "wechat", "weibo", "whatsapp", "wikipedia", "windows", "wordpress", "wykop", "xbox", "xing", "yahoo", "yammer", "yandex", "yelp", "younow", "youtube", "zapier", "zerply", "zomato", "zynga", "spreadshirt", "trello", "gamejolt", "tunein", "bloglovin", "gamewisp", "messenger"];
 
 module.exports = {
   render: render
@@ -32,20 +33,36 @@ Handlebars.registerHelper('paragraphSplit', function(plaintext) {
   return new Handlebars.SafeString(output);
 });
 
-Handlebars.registerHelper('markdown', function(str) {
-  return marked(str.fn(this));
+Handlebars.registerHelper('toLower', function(str) {
+  if (str && typeof str === 'string') {
+    return str.toLowerCase();
+  }
 });
 
-Handlebars.registerHelper('toLower', function(str) {
-  return str.toLowerCase();
+Handlebars.registerHelper('santify', function(net) {
+  var str = URL.parse(net).hostname.toLowerCase();
+  var parts = str.split('.');
+  //console.log(parts);
+  str = (parts.length == 2) ? parts[0] : parts[1];
+
+  for (var i = 0; i < nets.length; i++) {
+    if (nets[i].indexOf(str) > -1) {
+      return nets[i];
+    }
+  }
+  return "rss";
 });
 
 Handlebars.registerHelper('decodeURI', function(str) {
-  return decodeURIComponent(str);
+  if (str && typeof str === 'string') {
+    return decodeURIComponent(str);
+  }
 });
 
 Handlebars.registerHelper('spaceToDash', function(str) {
-  return str.replace(/\s/g, '-').toLowerCase();
+  if (str && typeof str === 'string') {
+    return str.replace(/\s/g, '-').toLowerCase();
+  }
 });
 
 Handlebars.registerHelper('theYear', function() {
@@ -92,6 +109,7 @@ Handlebars.registerHelper('map', function(level) {
         break;
 
       case "average":
+      case "competent":
       case "moderate":
       case "intermediate":
       case "proficient":
@@ -117,7 +135,7 @@ Handlebars.registerHelper('map', function(level) {
       case "architect":
         return "alert";
         break;
-        
+
       default:
         return "";
     }

@@ -1,8 +1,5 @@
-.DS_Store
+.sass-cache
+dir.txt
 node_modules
-npm-debug.log
-test
-helpers
-partials
-resume.json
-junk.*
+public
+resumes

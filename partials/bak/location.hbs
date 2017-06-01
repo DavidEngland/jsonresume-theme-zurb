@@ -1,0 +1,27 @@
+{{#location}}
+    <!-- <div class="row"> -->
+        <div class="small-12 medium-6 large-6 columns">
+            <div id="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="callout-card radius">
+                <div class="callout-card-content">
+                    {{#if address}}
+                        <div itemprop="streetAddress" class="address">
+                            {{address}}
+                        </div>
+                    {{/if}}
+                    {{#if city}}
+                        <span itemprop="addressLocality" class="city">{{city}},&nbsp;</span>
+                    {{/if}}
+                    {{#if region}}
+                        <span itemprop="addressRegion" class="region">{{region}}</span>
+                    {{/if}}
+                    {{#if postalCode}}
+                        <span itemprop="postalCode" class="postalCode">&nbsp;&nbsp;{{postalCode}}</span>
+                    {{/if}}
+                    {{#if countryCode}}
+                        <span itemprop="addressCountry" class="countryCode">{{countryCode}}</span>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+{{/location}}

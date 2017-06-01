@@ -1,0 +1,64 @@
+{{#if resume.education.length}}
+  <div id="education">
+    <h2>Education</h2>
+    {{#each resume.education}}
+      <div itemprop="alumniOf" itemscope itemtype="http://schema.org/OrganizationRole"
+        class="row">
+        <div class="callout-card radius secondary">
+          <meta itemprop="startDate" content="{{startDate}}" />
+          {{#if endDate}}
+            <meta itemprop="endDate" content="{{endDate}}" />
+          {{/if}}
+          <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+            <div class="callout-card-content">
+              {{#if studyType}}
+                <div class="small-12 medium-3 large-3 columns">
+                  <div class="studyType">{{studyType}}</div>
+                  {{#if area}}
+                    <span class="area">{{area}}</span>
+                  {{/if}}
+                  {{#if gpa}}
+                    <p class="gpa">
+                      <span class="label">GPA:</span>&nbsp;&nbsp;
+                      <span class="value">{{gpa}}</span>
+                    </p>
+                  {{/if}}
+                </div>
+              {{else}}
+                <div class="small-12 medium-3 large-3 columns"> </div>
+              {{/if}}
+              {{#if institution}}
+                <div class="small-12 medium-7 large-7 columns">
+                  <h3 itemprop="name" class="institution">{{institution}}</h3>
+                </div>
+              {{/if}}
+              <div class="small-12 medium-2 large-2 columns">
+                <p class="dates">
+                  {{#if startDate}}
+                    <span class="startDate">{{prettifyDate startDate}}</span>&nbsp;&ndash;&nbsp;
+                  {{/if}}
+                  {{#if endDate}}
+                    <span class="endDate">{{prettifyDate endDate}}</span>
+                  {{else}}
+                    <span class="endDate">Present</span>
+                  {{/if}}
+                </p>
+              </div>
+              {{#if courses.length}}
+                <div class="row">
+                  <div class="small-12 columns">
+                    <ul class="csv courses">
+                      {{#each courses}}
+                        <li>{{.}}</li>
+                      {{/each}}
+                    </ul>
+                  </div>
+                </div>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{/if}}

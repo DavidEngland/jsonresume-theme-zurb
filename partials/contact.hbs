@@ -1,0 +1,21 @@
+<div class="small-12 medium-6 large-6 columns">
+  <div id="basics" class="callout-card radius">
+    <div class="contact callout-card-content">
+      {{#if website}}
+        <div class="website">
+          <a href="{{website}}" target="_blank" itemprop="url">&nbsp;{{website}}</a>
+        </div>
+      {{/if}}
+      {{#if email}}
+        <div class="email">
+          <a href="mailto:{{email}}" itemprop="email">&nbsp;{{email}}</a>
+        </div>
+      {{/if}}
+      {{#if phone}}
+        <div class="phone">
+          <a href="tel://{{phone}}" class="link-disguise info" itemprop="telephone">&nbsp;{{phone}}</a>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</div>

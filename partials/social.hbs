@@ -1,0 +1,11 @@
+{{#if profiles.length}}
+  <div class="row">
+    <div id="profiles" class="rounded-social-buttons">
+      {{#each profiles}}
+        {{#if network}}
+          <a href="{{url}}" itemprop="sameAs" class="social-button {{toLower network}}" target="_blank"><span class="socicon socicon-{{toLower network}}"></span><span></span></a>
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+{{/if}}

@@ -1,104 +1,128 @@
-.header {
-    background: #8a8a8a;
-
-    .columns {
-        padding-bottom: 0;
-    }
-
-    p {
-        color      : #ffffff;
-        padding-top: 15px;
-    }
-
-    .wrapper-inner {
-        padding: 20px;
-    }
-
-    .container {
-        background: transparent;
-    }
+.avatar {
+  border-radius: 50%;
 }
 
 a[href^="mailto:"]:before {
-    content: "\1F4E7 ";
+  content: "\1F4E7 ";
 }
 
 .website:before {
-    content: "\1F517";
+  content: "\1F517";
 }
 
 a[href^="tel:"]:before {
-    content: "\1F4F1";
+  content: "\1F4F1";
 }
 
 .important:before {
-    content: "\27BE";
+  content: "\27BE";
 }
 
 blockquote:before {
-    content: "\275D";
+  content: "\275D";
 }
 
 blockquote:after {
-    content: "\275E";
+  content: "\275E";
 }
 
-.alert:before {
-    content: "\26A0";
+.summary {
+  line-height: 1;
+  margin     : $header-margin-bottom 0;
 }
 
-#education .gpa .value {
+#education {
+  .gpa .value {
     font-weight: 700;
+  }
+
+  h3.institution {
+    font-size  : 24px;
+    font-size  : 1.5rem;
+    line-height: 1;
+  }
 }
 
-#languages .fluency {
+#info {
+  .thumbnail {
+    box-shadow : none;
+    margin-left: 10px;
+    @include breakpoint(medium) {
+      margin-left: 4px;
+    }
+  }
+  @include breakpoint(medium) {
+    .media-object-section:nth-child(2) {
+      padding-left: 10px;
+      border-left : thick double #78Cf4d;
+    }
+  }
+}
+
+#interests .name {
+  font-weight: 700;
+}
+
+#languages {
+  .fluency {
     font-style: italic;
+  }
+
+  .language {
+    font-weight    : 700;
+    text-decoration: underline;
+    margin-bottom  : $header-margin-bottom;
+  }
+
+  button {
+    border-radius: 0.6rem;
+  }
 }
 
 #location .postalCode {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #publications {
-    page-break-before: always;
+  page-break-before: always;
 
-    .publisher {
-        font-style: italic;
-    }
+  .publisher {
+    font-style: italic;
+  }
 
-    .releaseDate {
-        font-weight: 700;
-    }
+  .releaseDate {
+    font-weight: 700;
+  }
 }
 
-#work .position {
+#work {
+  .summary {
+    font-size: 1.25rem;
+  }
+
+  .position {
     font-weight: 700;
+  }
 }
 
 #references cite {
-    float: right;
+  float: right;
 }
 
 a[href^="http:://twitter.com"]:before {
-    direction   : rtl;
-    unicode-bidi: bidi-override;
-    content     : "\1F426";
-}
-
-.wrapper.secondary {
-    background: #f3f3f3;
+  direction   : rtl;
+  unicode-bidi: bidi-override;
+  content     : "\1F426";
 }
 
 .copywrite {
-    font-size: smaller;
+  font-size  : x-small;
+  line-height: 0.8;
 }
 
-    .dates {
-        text-align: right;
-    }
-
-@media only screen and (max-width: 40em) {
-    .dates {
-        text-align: left;
-    }
+.dates {
+  text-align: left;
+  @include breakpoint(medium) {
+    text-align: right;
+  }
 }

@@ -1,0 +1,20 @@
+{{#if resume.languages.length}}
+    <div id="languages">
+        <h2>Languages</h2>
+        <div class="row">
+            {{#each resume.languages}}
+                <div class="small-6 large-6 columns">
+                    {{#if language}}
+                        <div class="language">
+                            {{language}}
+                        </div>
+                    {{/if}}
+                    {{#if fluency}}
+                        <div class="fluency">
+                            {{fluency}}
+                        </div>
+                    {{/if}}
+                </div>
+            {{/each}}
+        </div>
+{{/if}}

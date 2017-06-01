@@ -1,0 +1,19 @@
+{{#if resume.references.length}}
+  <div id="references">
+    <h2>References</h2>
+    {{#each resume.references}}
+      <div class="row">
+        <div class="item">
+          {{#if reference}}
+            <blockquote class="reference">
+              {{reference}}
+            </blockquote>
+          {{/if}}
+          {{#if name}}
+            <cite itemprop="colleague"><span itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{name}}</span></span></cite>
+          {{/if}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{/if}}

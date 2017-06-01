@@ -1,0 +1,57 @@
+{{#if resume.education.length}}
+    <div id="education">
+        <h2>Education</h2>
+        {{#each resume.education}}
+            <div itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" class="callout-card radius secondary">
+                <div class="callout-card-content">
+                    {{#if studyType}}
+                        <div class="small-6 medium-2 large-2 columns">
+                            <div class="studyType">{{studyType}}</div>
+                            {{#if gpa}}
+                                <p class="gpa">
+                                    <span class="label">GPA: </span><span class="value">{{gpa}}</span>
+                                </p>
+                            {{/if}}
+                        </div>
+                    {{else}}
+                        <div class="large-2 columns"></div>
+                    {{/if}}
+                    {{#if area}}
+                        <div class="small-6 medium-2 large-3 columns">
+                            <span class="area">{{area}}</span>
+                        </div>
+                    {{else}}
+                        <div class="small-6 medium-2 large-3 columns">
+                        </div>
+                    {{/if}}
+                    {{#if institution}}
+                        <div class="small-12 medium-4 large-4 large-centered columns">
+                            <span itemprop="name" class="institution">{{#markdown}}{{institution}}{{/markdown}}</span>
+                        </div>
+                    {{/if}}
+                    <div class="small-6 medium-2 large-3 columns">
+                        <p class="dates">
+                            {{#if startDate}}
+                                <span class="startDate">{{prettifyDate startDate}}</span>&nbsp;&ndash;&nbsp;
+                            {{/if}}
+                            {{#if endDate}}
+                                <span class="endDate">{{prettifyDate endDate}}</span>
+                            {{else}}
+                                <span class="endDate">Present</span>
+                            {{/if}}
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    {{#if courses.length}}
+                        <ul class="courses">
+                            {{#each courses}}
+                                <li>{{.}}</li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+{{/if}}

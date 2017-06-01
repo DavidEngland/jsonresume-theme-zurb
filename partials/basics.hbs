@@ -1,0 +1,67 @@
+{{#resume.basics}}
+  <div class="media-object">
+    {{#if picture}}
+      <div class="media-object-section middle">
+        <div class="thumbnail">
+          <img src="{{picture}}" alt="Photo of {{name}}" class="avatar" itemprop="image">
+        </div>
+      </div>
+    {{/if}}
+    <div class="media-object-section">
+      <h1 itemprop="name">{{name}}</h1>
+      <h2 itemprop="description">{{label}}</h2>
+      <ul class="bar">
+        {{#if phone}}
+          <li class="phone">
+            <a href="tel://{{phone}}" class="link-disguise info" itemprop="telephone">&nbsp;{{phone}}</a>
+          </li>
+        {{/if}}
+        {{#if website}}
+          <li class="website">
+            <a href="{{website}}" target="_blank" itemprop="url">&nbsp;{{website}}</a>
+          </li>
+        {{/if}}
+        {{#if email}}
+          <li class="email">
+            <a href="mailto:{{email}}" class="link-disguise info" itemprop="email">&nbsp;{{email}}</a>
+          </li>
+        {{/if}}
+      </ul>
+      {{#location}}
+        <!-- <div class="row"> -->
+        <div id="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <ul class="bar">
+            {{#if address}}
+              <li itemprop="streetAddress" class="address">
+                {{address}}
+              </li>
+            {{/if}}
+            {{#if city}}
+              <li itemprop="addressLocality" class="city">{{city}}</li>
+            {{/if}}
+            {{#if region}}
+              <li itemprop="addressRegion" class="region">{{region}}</li>
+            {{/if}}
+            {{#if postalCode}}
+              <li itemprop="postalCode" class="postalCode">{{postalCode}}</li>
+            {{/if}}
+            {{#if countryCode}}
+              <li itemprop="addressCountry" class="countryCode">{{countryCode}}</li>
+            {{/if}}
+          </ul>
+        </div>
+      {{/location}}
+      {{#if profiles.length}}
+        <div class="row">
+          <div id="profiles" class="rounded-social-buttons">
+            {{#each profiles}}
+              {{#if network}}
+                <a href="{{url}}" itemprop="sameAs" class="social-button {{toLower network}}" target="_blank"><span class="socicon socicon-{{toLower network}}"></span><span></span></a>
+              {{/if}}
+            {{/each}}
+          </div>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+{{/resume.basics}}

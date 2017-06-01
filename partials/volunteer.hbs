@@ -1,0 +1,68 @@
+{{#if resume.volunteer.length}}
+  <div id="volunteer">
+    <h2>Volunteer</h2>
+    {{#each resume.volunteer}}
+      <div class="row">
+        <div class="callout-card radius primary">
+          <div class="row">
+            <div class="callout-card-content">
+              <div class="row">
+                {{#if position}}
+                  <div class="small-12 medium-5 large-5 columns">
+                    <span class="position">{{position}}</span>
+                  </div>
+                {{else}}
+                  <div class="small-12 medium-5 large-5 columns"></div>
+                {{/if}}
+                {{#if company}}
+                  <div class="small-12 medium-4 large-4 columns">
+                    {{#if website}}
+                      <a href="{{website}}" target="_blank">{{organization}}</a>
+                    {{else}}
+                      <span>{{organization}}</span>
+                    {{/if}}
+                  </div>
+                {{else}}
+                  <div class="small-12 medium-4 large-4 columns"></div>
+                {{/if}}
+                <div class="small-12 medium-3 large-3 columns">
+                  <p class="dates">
+                    {{#if startDate}}
+                      <span class="startDate">{{prettifyDate startDate}}</span>&nbsp;&ndash;&nbsp;
+                    {{/if}}
+                    {{#if endDate}}
+                      <span class="endDate">{{prettifyDate endDate}}</span>
+                    {{else}}
+                      <span class="endDate">Present</span>
+                    {{/if}}
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                {{#if summary}}
+                  <div class="small-12 medium-12 large-12 columns">
+                    <div class="lead summary">{{summary}}</div>
+                  </div>
+                {{/if}}
+              </div>
+              {{#if highlights.length}}
+                <div class="row">
+                  <div class="small-12 medium-12 large-12 columns">
+                    <ul class="highlights">
+                      {{#each highlights}}
+                        <li>
+                          {{#markdown}}{{.}}{{/markdown}}
+                        </li>
+                      {{/each}}
+                    </ul>
+                  </div>
+                </div>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+{{/if}}

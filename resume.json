@@ -1,271 +1,218 @@
 {
-    "basics": {
-        "name": "David England",
-        "label": "Available for Hire",
-        "picture": "https://media.licdn.com/mpr/mprx/0_OPQTE-z_17C7p9jkKnBYElFi1Hc7yvukpNtOElFO2DiY_AUXtvnSXAPrjQBl0tSe0Kkx59JoZRAX",
-        "website": "http://about.me/DavidEngland",
-        "email": "DavidEEngland@Outlook.com",
-        "summary": "Very versatile worker with extensive experience in many diverse areas. Able to adapt to almost any work environment. Especially enjoy working with data, programming and statistics.",
-        "profiles": [{
-            "network": "LinkedIn",
-            "username": "davidengland",
-            "url": "https://www.linkedin.com/in/davidengland"
-        }, {
-            "network": "Facebook",
-            "username": "DavidEEngland",
-            "url": "https://www.facebook.com/DavidEEngland"
-        }, {
-            "network": "google-plus",
-            "username": "DavidEEngland",
-            "url": "https://plus.google.com/u/0/+DavidEngland/"
-        }, {
-            "network": "Twitter",
-            "username": "DavidEEngland",
-            "url": "http://twitter.com/DavidEEngland"
-        }, {
-            "network": "GitHub",
-            "username": "DavidEngland",
-            "url": "https://github.com/DavidEngland"
-        }],
-        "location": {
-            "region": "TN",
-            "postalCode": "38450"
-        }
+  "basics": {
+    "name": "Christopher J Keen",
+    "label": "JavaScript Architect & Founder",
+    "picture": "https://media.licdn.com/media/p/1/000/0e7/154/0b26ef4.jpg",
+    "email": "christopher.keen@gmail.com",
+    "phone": "(404) 494-0390",
+    "website": "http://keenconcepts.io",
+    "summary": "I am an Atlanta Native.  I have programmed a couple of (unreleased) video games using Impact.js with friends.  I have a strong passion for JavaScript, and have presented several times at Atlanta JavaScript. I edited 'Data Visualizations with JavaScript' for NoStarch Press.",
+    "location": {
+      "postalCode": "GA 30076",
+      "countryCode": "US",
+      "region": "Georgia"
     },
-
-    "work": [{
-        "company": "Strom Engineering",
-        "position": "Artificer",
-        "website": "http://www.stromengineering.com/",
-        "startDate": "2014-08",
-        "endDate": "2015-10",
-        "highlights": [
-            "Various LEAN manufacturing assembly line positions",
-            "End of the line testing and evaluation."
-        ]
+    "profiles": [{
+      "url": "http://stackoverflow.com/users/673958/zedd45",
+      "username": "zedd45",
+      "network": "Stack Overflow"
     }, {
-        "company": "Higher Education",
-        "position": "Adjunct Professor/Part-Time Math Teacher",
-        "summary": "Taught Learning Support Math, Developmental Studies, Algebra, and Statistics.",
-        "startDate": "2010-08",
-        "endDate": "2014-05",
-        "highlights": [
-            "[Jackson State Community College](http://jscc.edu)",
-            "[Columbia State Community College](http://columbiastate.edu)",
-            "[University of North Alabama](http://una.edu)",
-            "[ITT Tech - Madison, Alabama](http://itt-tech.info)",
-            "[Mars Hill Bible School](http://mhbs.org)"
-        ]
+      "url": "https://github.com/zedd45",
+      "username": "zedd45",
+      "network": "GitHub"
     }, {
-        "company": "Real Estate Intelligence Agency, Inc.",
-        "position": "Freelance",
-        "website": "http://www.realestate-Huntsville.com",
-        "startDate": "2012-10",
-        "endDate": "",
-        "summary": "Full Stack Developer",
-        "highlights": [
-            "Integrating IDX MLS into [Real Estate Intellicence Agency](http://www.RealEstate-Huntsville.com)",
-            "Integrating IDX MLS into [Cherokee Ridge Home](http://CherokeeRidgeHomes.com)",
-            "Search Engine Optimization (**SEO**) specialist",
-            "WordPress theme modifications",
-            "CSS/LESS/SASS",
-            "Webmaster: PHP, Javascript, jQuery, and plugins."
-        ]
+      "url": "https://twitter.com/zedd45",
+      "username": "zedd45",
+      "network": "Twitter"
     }, {
-        "company": "England Farms",
-        "position": "Farmer",
-        "website": "https://www.facebook.com/England-Farms-357539910988780/",
-        "startDate": "1965-04",
-        "endDate": "2010-12",
-        "summary": "Equipment Operator, Mechanic, Wrangler"
-    }, {
-        "company": "ThermaSave of IHSN",
-        "position": "Engineer",
-        "website": "http://ThermaSave.us",
-        "startDate": "2005-06",
-        "endDate": "2007-01",
-        "summary": "Worked in the construction, shipping and setup of IHSN franchises for the manufacture of Structurally Insulated Panels (SIPs).Also built and assembled houses from SIPs."
-    }, {
-        "company": "Self",
-        "position": "Freelance Computer Technician",
-        "website": "",
-        "startDate": "1995-01",
-        "endDate": "2001-12",
-        "highlights": [
-            "Trouble shot computers and resolved network issues.",
-            "Worked on the family farm."
-        ]
-    }, {
-        "company": "Instrumental Sciences, Inc",
-        "position": "Research and Development",
-        "website": "http://www.insciences.com/",
-        "startDate": "2000",
-        "endDate": "2001",
-        "summary": "Investigated the loss of high frequency radio transmissions due to weather events."
-    }, {
-        "company": "Applied Data Trends, Inc",
-        "position": "Mathematician",
-        "website": "http://www.adt-it.com",
-        "startDate": "1998",
-        "endDate": "2000",
-        "summary": "Extracted climate data from NASA and NOAA databases to improve climate models."
-    }, {
-        "company": "Global Hydrology and Climate Center",
-        "position": "Post Doctoral Research Associate, Atmospheric",
-        "website": "http://www.ghcc.msfc.nasa.gov/",
-        "startDate": "1995",
-        "endDate": "1997",
-        "summary": "Worked at Tennessee Valley Authority (TVA) simulating ozone transport. Continued development of Atmospheric simulations. Wrote papers and proposals."
-    }, {
-        "company": "The University of Alabama in Huntsville",
-        "position": "Mathematics Lecturer and Research Associate",
-        "website": "http://www.uah.edu",
-        "startDate": "1993",
-        "endDate": "1995",
-        "summary": "Taught Calculus and Differential Equations. Continued research and development of atmospheric numerical models. Wrote papers and proposals."
-    }, {
-        "company": "DESE Research, Inc.",
-        "position": "Engineer (Testing and Evaluation)",
-        "website": "http://www.dese.com/",
-        "startDate": "1992",
-        "endDate": "1993",
-        "summary": "Analyzed and Designed an experiment to determine the near-miss distance for the Anti-Satellite (ASAT) project. Provided intelligence support for the First Gulf War."
-    }],
-    "volunteer": [],
-    "education": [{
-        "institution": "[University of Alabama in Huntsville](http://www.uah.edu)",
-        "studyType": "PhD",
-        "area": "Math, Statistics and the Atmospheric Sciences",
-        "startDate": "1987-01",
-        "endDate": "1993-06-19",
-        "summary": "Dissertation: A Mathematical Analysis of Nocturnal Slope Flows.",
-        "courses": [],
-        "gpa": "3.67/4.00"
-    }, {
-        "institution": "[University of Alabama in Huntsville](http://www.uah.edu)",
-        "studyType": "MS",
-        "area": "Math, Statistics and the Atmospheric Sciences",
-        "startDate": "1985-06",
-        "endDate": "1987-12-13",
-        "summary": "Calibrated pyronometers for NASA. Launched weather balloons. Researched and developed numerical weather and climate models. Taught Pre-Calculus thru Differential Equations level courses.",
-        "gpa": "3.33/4.00"
-    }, {
-        "institution": "[University of North Alabama](http://www.una.edu)",
-        "studyType": "BS",
-        "area": "Math, Computer Science, Statistics and Physics",
-        "startDate": "1978-08-21",
-        "endDate": "1983-05-11",
-        "summary": "Also showed films at media center and worked in the computer lab.",
-        "courses": [],
-        "gpa": "1.79/3.00"
-    }, {
-        "institution": "[Central High School](http://central.lch.schoolinsites.com/)",
-        "startDate": "1965",
-        "endDate": "1978-06",
-        "courses": []
-    }],
-    "awards": [],
-    "publications": [{
-        "name": "Predictability of the Stable Atmospheric Boundary Layer",
-        "releaseDate": "1995-05",
-        "publisher": "American Meteorological Society",
-        "website": "http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281995%29052%3C1602%3APOTSAB%3E2.0.CO%3B2"
-    }, {
-        "name": "Stability Functions based upon Shear Functions",
-        "releaseDate": "1995-04",
-        "publisher": "Boundary Layer Meteorology",
-        "website": "http://link.springer.com/article/10.1007%2FBF00715713"
-    }, {
-        "name": "On the Behavior of the Stable Boundary Layer and the Role of Initial Conditions",
-        "releaseDate": "2005-10",
-        "publisher": "Pure and Applied Geophysics",
-        "website": "http://link.springer.com/article/10.1007%2Fs00024-005-2694-7"
-    }, {
-        "name": "Concerning the Limiting Behavior of Time-dependent Slope Winds",
-        "releaseDate": "1993-06",
-        "publisher": "Journal of the Atmospheric Sciences/American Meteorological Society",
-        "website": "http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1610%3ACTLBOT%3E2.0.CO%3B2"
-    }],
-    "skills": [{
-        "name": "Concepts",
-        "keywords": [
-            "Physics",
-            "Analysis",
-            "Statistics",
-            "Theory",
-            "Research",
-            "Algorithms",
-            "Mathematical Modeling",
-            "TroubleShooting",
-            "Problem Solving",
-            "OOP",
-            "REST",
-            "SEO"
-        ]
-    }, {
-        "name": "Web Development",
-        "level": "Advanced",
-        "keywords": [
-            "HTML",
-            "JavaScript",
-            "CSS",
-            "jQuery",
-            "Bootstrap",
-            "Bower",
-            "npm",
-            "Grunt",
-            "Gulp",
-            "Node.js",
-            "Apache",
-            "MySQL",
-            "PHP",
-            "XML"
-        ]
-    }, {
-        "name": "Operating Systems",
-        "level": "Master",
-        "keywords": [
-            "Microsoft Windows",
-            "Linux"
-        ]
-    }, {
-        "name": "Software",
-        "level": "Advanced",
-        "keywords": [
-            "WordPress",
-            "LaTex",
-            "Git",
-            "Vagrant",
-            "Virtual Box"
-        ]
-    }, {
-        "name": "Programming",
-        "level": "Advanced",
-        "keywords": [
-            "JavaScript",
-            "PHP",
-            "SQL"
-        ]
-    }],
-    "languages": [{
-        "language": "English",
-        "fluency": "Native speaker (USA/SEC)"
-    }, {
-        "language": "German",
-        "fluency": "Limited Working"
-    }],
-    "interests": [],
-    "references": [{
-        "name": "Mikko Jetsu",
-        "reference": "I have used David for Web and IT technology services for my companies over the years. He was assisting me in early 90's to hand code html for websites - at a time companies were still trying to justify value for building a website. Today he provides advice and support for all IT related challenges my company faces. I admire his ability to keep up with technological change and see the relevance to my business."
-    }, {
-        "name": "Tammy Borren",
-        "reference": "Dr. England is a part-time instructor of mathematics at our Clifton campus. He is good with the students, and willing to be flexible with scheduling. If he says he will teach a class, then I don't have any worries about that class for the semester."
-    }, {
-        "name": "Derrick T. Copeland",
-        "reference": "Dave is hands down brilliant. His perspective and point of view along with his dedication to problem solving were vital to the completion of our advanced research project. I hope we have the opportunity to work together again."
-    }, {
-        "name": "Justin Hnilo",
-        "reference": "I have known David England for 20 years and know him to be an exceptional scientist. His adherence to detail and want to dive into deep problems and work out a solution is something one rarely comes across in the applied sciences. His comprehensive knowledge covers a broad area that of, applied mathematics, physics and mathematical modeling. Though not only a brilliant scientist, one who is always willing to lend a helping hand. I would like to give my strongest recommendation to David England."
+      "url": "https://www.junk.com/in/christopherjackkeen",
+      "username": "christopherjackkeen",
+      "network": "LinkedIn"
     }]
+  },
+  "work": [{
+    "summary": "I meet with a student three times a week to help them with their full stack JavaScript bootcamp",
+    "startDate": "2017-02-15",
+    "website": "https://www.thinkful.com/",
+    "position": "Bootcamp Mentor",
+    "company": "Thinkful.inc"
+  }, {
+    "highlights": ["Co-Designed a Hapi JS Server that proxies to microservices (docker containers), as well as to Webpack Dev Server which serves React Components (modules)", "Docker Swarm is utilized to manage the health of our microservices in AWS", "Developed a React + Redux + react-router + react-bootstrap based site for entering E-Sports competitions (currently CS:GO), complete with ~300 unit tests.  This site was fully internationalized (i18n) with the use of reat-globalize and deployed in Singapore", "Utilized `faker` + `json-server` to write fake data services for use with rapid prototyping React + Redux apps"],
+    "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting on weekends in Backbone Marionette, and offered us full time employment",
+    "startDate": "2015-11-15",
+    "website": "https://www.fantasesports.com/",
+    "position": "UI / Node Architect",
+    "company": "ZCo Holdings"
+  }, {
+    "highlights": ["Designed a Hapi JS plugin that aggregated API calls with server caching which withstood 4.3 million page views per hour for the Sam's Club VIP Sale.", "Developed speech recognition prototype utilizing Angular 1.4.x, Babel, ES2015 and WebPack", "Implemented a 'heartbeat' plugin that displays statistics including load, memory usage, current tag for each repo, API endpoints, and more that also serves as a means for the T2 load balancer to check that health of the node instance for a given VIP", "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform", "My team supported the Angular team's Cart and Checkout redesign for 2015 by serving / mutating desktop APIs into a format consumable by Angular", "UI and Node JS efforts raised 0.02% conversion in February to 0.08% conversion by EOY"],
+    "summary": "I worked for Walmart Labs - the leading e-commerce platform in the world.  Labs provides open source solutions to complex problems.",
+    "endDate": "2015-11-15",
+    "startDate": "2015-04-08",
+    "website": "https://m.samsclub.com",
+    "position": "Sr Mobile Engineer / Node JS Team Lead",
+    "company": "Walmart Labs"
+  }, {
+    "highlights": ["Advanced JavaScript - Inheritance, ES6, Design (Module) Patterns, TDD and more (https://github.com/zedd45/2016Q1-adv-js)", "Node.js - How to build a server using Node JS and Hapi (https://github.com/zedd45/2015-fall-creative-circus)"],
+    "summary": "I prepared the course material and taught JavaScript concepts to young professionals for two quarters",
+    "endDate": "2016-03-15",
+    "startDate": "2015-09-15",
+    "website": "http://www.creativecircus.edu/",
+    "position": "Adjunct Professor",
+    "company": "The Creative Circus"
+  }, {
+    "highlights": ["Vunify (http://www.vunify.com): Integrated Gulp, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku", "Vunify: Refactored existing Algolia interface via a Python abstract class which aggregates the response for Multi-Queries (cross-collections - in this case, programs, playlists, and 'channels') into a single HTTP response for search results.", "Vunify: Created a series of User Playlist tools, via Backbone synced to MongoDB via Flask RESTful, including custom hero images via Heroku + Cloudinary.", "Vunify: Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.", "Created an energy-usage geo-vis using Gulp, Karma, browserify, and Leaflet.", "Walmart Labs: Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com", "fantasycoach.com: Refactored UI using Marionette JS. These modifications included UX and speed improvements.  Load times improved by an order of magnitude.", "Randstad USA: consulted on talent search intranet website written on a Google Compute MEAN stack.  I added a custom single signon component with session management via Express"],
+    "summary": "Keen Concepts provides consulting solutions for complex JavaScript Applications.  KC has consulted with startups in their launch phases, to established fortune one companies (Walmart Labs).",
+    "startDate": "2014-04-08",
+    "website": "http://keenwebconcepts.com",
+    "position": "JavaScript Architect / Founder",
+    "company": "Keen Concepts"
+  }, {
+    "highlights": ["Created a series of AMD JS components to manage things like client side error reporting relaying AJAX requests (via core javascript / no framework) to the Scala layer for processing & archival.", "Configured SBT to allow for Grunt JS + Scala Play integration.", "Switched Less & Require JS from Playframework / SBT to Grunt management, allowing us to remove Rhino and thus decrease compile times by an order of magnitude.  Additionally removed hard-coded version dependency for less in playframework, allowing us to upgrade to BootStrap 3", "Designed a Gruntfile that utilized Q (promises) to call npm install, then bower install, then a build target for each sub-project (via grunt-hub) in a reliable, race-condition-free manner.  This allows local dev and the build process to use the same top level design for generating assets", "Created a white label project that uses Grunt to ingest html components into a template, with commmands for validation, and pushing to GIT + Jenkins for automated deployments"],
+    "summary": "TST provides dynamic travel booking and packaging solutions for AAA Clubs (and others)",
+    "endDate": "2014-04-08",
+    "startDate": "2013-07-02",
+    "website": "https://www.tstllc.net/",
+    "position": "UI Architecture Consultant",
+    "company": "Travel Syndication Technologies (AAA)"
+  }, {
+    "highlights": ["I consulted on the architecture and implementation of a custom framework including jQuery plugins and page components for Infor Social (Ming.le) – a SSO platform used to create a single place to manage a company’s data across a suite of products", "Engineered a Smart Dialog utilizing HTML5 contenteditable that populates a suggestion list on user input (autocomplete) for tagging users and groups within the organization.  Interactions include 'tagging' a user (visual aesthetic inside of the contenteditable div), keyboard selection via arrow / enter keys.  The component stores the tag to process notifications to tagged users & handles privacy levels for posts", "HTML5 Bulk upload component, utilizing feature detection to instantiate Flash (Uploadify) fallback for browsers that don’t support File API", "Overlay / Dialog component supporting dynamic content that ‘conditionally’ binds event listeners for re-centering and closing (upon close button click or esc key)", "Infinite Scroll component with a custom callback feature to fire programmable actions when it detects user has reached the ‘end’ of the current content", "Implemented namespacing conventions / file structure to reduce maintenance overhead ($.extend with detection to prevent ‘clobbering’ existing namespaces)", "Added Mocha JS with Sinon JS & Chai JS to test plugin components and custom framework integration"],
+    "summary": "I consulted on Infor Ming.le&#8482, a comprehensive platform for social collaboration, business process improvement, and contextual analytics. From collaborating alongside core systems like ERP or financials to “following” people and objects, Infor Ming.le&#8482 lets you get work done in ways you never thought possible.",
+    "endDate": "2013-07-02",
+    "startDate": "2013-02-01",
+    "website": "http://www.infor.com/",
+    "position": "JavaScript Architecture Consultant",
+    "company": "Infor"
+  }, {
+    "highlights": ["Authored an API to index data using Ruby Sinatra to respond with paginated JSON with DynamoDB integration, including a file processing queue using Amazon's SQS. I wrote a UI in Handlebars utilizing JSONP, complete with HTML5 validation, and a light-weight, custom infinite scroll handler to fetch more results on scroll.  I completed this effort by adding unit tests for the API (RSpec), and UI (Mocha)", "Contributed to the development of Ember JS 'widgets' written in CoffeeScript.  We utilized  Ember Data for REST calls, data persistence, and to handle state (loading/error) transitions", "Populated JSON responses via Express JS wrappers that aggregate data from API calls.  We used mocha to test both the Express and client Ember unit tests"],
+    "summary": "Real Time network intrusion detection and monitoring.",
+    "endDate": "2012-04-01",
+    "startDate": "2013-02-01",
+    "website": "http://www.crowdstrike.com",
+    "position": "Sr. UI Engineer",
+    "company": "CrowdStrike"
+  }, {
+    "highlights": ["I utilized Python / Django with jQuery to create the front end and several NoSQL stores including Cassandra, Accumulo, Hadoop, and Solr to sift through large amounts of data", "Implemented several visualizations ranging from simple charts created with jQuery's Flot, to interactive tables using jQuery dataTables", "Crafted a replacement for Google Earth Enterprise product using OpenStreetMap data and tiles styled in TileMill, served by TileStache, with interactions powered by Leaflet JS.  This effort saved ~$500,000 per deployment (the cost of an enterprise GE license)"],
+    "summary": "EGS provides Instant Detection and Active Response To Advanced Threats with Endgame Enterprise",
+    "endDate": "2011-11-12",
+    "startDate": "2010-07-06",
+    "website": "https://www.endgame.com/",
+    "position": "Sr. Web Application Developer",
+    "company": "Endgame Systems"
+  }, {
+    "highlights": ["Mobile-first web redesign: we used zepto.js for light-weight, cross-platform event handling (such as swipe), and used cutting edge RWD and CSS3 technologies to render a fast and friendly experience to mobile users", "Integrated Twitter into weather.com.  I worked on components, including a SVG 'Tweet' Map that would present a carousel of weather-related tweets specific to a state when you clicked on the state", "Interactive Map Redesign: we created an HTML5-friendly static weather map, and integrated with Flash to create a rich experience by overlaying weather tiles on map tiles"],
+    "summary": "The Weather Channel and weather.com provide a national and local weather forecast for cities, as well as weather radar, report and hurricane coverage.",
+    "endDate": "2011-11-12",
+    "startDate": "2010-07-06",
+    "website": "http://weather.com",
+    "position": "Sr. Web Application Developer / UI Team Lead",
+    "company": "The Weather Channel"
+  }, {
+    "highlights": ["Proposed and implemented changes to the code that controls Ads on the front and back end in order to have a consistent, concise, performance optimized solution.", "Ad Serving Subject Matter Expert (SME).", "UIE project lead on several projects, including: AutoTraderClassics.com (post-launch), Consumer Site Loyalty / MyATC.", "Responsible for managing and maintaining the UIE code review process.", "Sole developer on two site-wide, high profile initiatives (Ads Framework Upgrade, Marketing Homepage & Header banners), while engaged on a third, mission critical project (Next Generation Model Info).", "Created UI components for the Model Info page that emit & listen for name-spaced jQuery events and re-render areas of the UI based on the event. (pre-backbone)", "Authored UI controls on the find your car page allowing users to select by body style tiles, and revising the AJAX powered drop-downs that allow selection of make & model", "Created JS controller to power ad targeting changes via AJAX calls for a research page component", "Integrated the Flash “hero” homepage ad and background images for site header into the CMS.", "Encouraged and participated in the addition of jQuery to AutoTrader.com", "Solitary engineer on Maintenance for AutoTrader.com for several months. Responsible for all issue resolutions, including production emergencies. Required to support multiple platforms / browsers."],
+    "summary": "AutoTrader.com connects private sellers and dealers with customers by providing a dynamic, innovative marketplace platform.",
+    "endDate": "2010-07-06",
+    "startDate": "2008-03-01",
+    "website": "http://autotrader.com",
+    "position": "User Interface Engineer",
+    "company": "AutoTrader.com"
+  }, {
+    "highlights": ["Worked with jQuery to create rich interactions from carousels to dynamic crossfading banners", "Worked with 'big tier' banks (igobanking.com, flushingbank.com etc) to create rich interactions and visuals", "Customized Internet Banking visuals with jQuery", "After hours support responsible for completion of all SLAs for the day", "Organized and executed the development of intranet resources for training new QA employees", "Documented and published standard operating procedures for the QA department."],
+    "summary": "Intuit Financial Institutions Division provides websites with integrated internet banking solutions.",
+    "endDate": "2008-03-01",
+    "startDate": "2004-11-01",
+    "website": "http://www.intuit.com",
+    "position": "Web Software Developer",
+    "company": "Intuit Financial Institutions Division"
+  }],
+  "volunteer": [{
+    "highlights": ["Video Game Libraries 2012", "Grunt 2013", "Gulp 2014", "Hapi JS 2016"],
+    "summary": "Meetups and Workshops for those passionate about learning JavaScript.",
+    "startDate": "2012-01-01",
+    "website": "https://twitter.com/atljavascript",
+    "position": "Speaker / Lecturer",
+    "organization": "JavaScript Atlanta"
+  }],
+  "education": [{
+    "startDate": "2003-06-01",
+    "studyType": "Bachelor",
+    "area": "Computer Science",
+    "institution": "University of Georgia"
+  }, {
+    "endDate": "2006-06-01",
+    "startDate": "2000-01-01",
+    "studyType": "Associates",
+    "area": "Computer Science",
+    "institution": "University of North Georgia"
+  }],
+  "awards": [{
+    "summary": "I helped the AdServing team out with a huge refactoring that a friend and I pitched to the leadership that allowed us to help make placements on our site smoother, more reliable, and more flexible, and included a debugging framework.",
+    "awarder": "AutoTrader.com",
+    "date": "2009-10-01",
+    "title": "Customer Service Recognition Award"
+  }, {
+    "summary": "My passion to seek out and fix problems resulted in us creating a performance initiative at AutoTrader.com. I also pitched converting from Prototype.js to jQuery.js, both of which resulted in this award.",
+    "awarder": "AutoTrader.com",
+    "date": "2008-09-01",
+    "title": "I Make a Difference Award"
+  }],
+  "publications": [],
+  "skills": [{
+    "keywords": ["HTML5", "CSS3", "Javascript", "ES20xx"],
+    "level": "Expert",
+    "name": "Web Development"
+  }, {
+    "keywords": ["React", "Redux", "Leaflet", "D3", "Google Maps", "Bootstrap 3", "Angular 1.x", "Marionette", "Backbone", "jQuery"],
+    "level": "Expert",
+    "name": "Front-End Frameworks (and libraries)"
+  }, {
+    "keywords": ["Less CSS", "Sass", "CoffeeScript", "Babel"],
+    "level": "Intermediate",
+    "name": "Front-End Preprocessors"
+  }, {
+    "keywords": ["Hapi", "Express", "Sinatra", "Flask", "Django", "CodeIgniter"],
+    "level": "Intermediate",
+    "name": "Server / Middleware"
+  }, {
+    "keywords": ["Webpack", "Gulp", "Grunt"],
+    "level": "Advanced",
+    "name": "Node Build Tools"
+  }],
+  "languages": [{
+    "fluency": "Native speaker",
+    "language": "English"
+  }, {
+    "fluency": "Working Knowledge",
+    "language": "German"
+  }],
+  "interests": [{
+    "keywords": ["Dogs"],
+    "name": "Wildlife"
+  }],
+  "references": [{
+    "reference": "Chris is a proactive and thoughtful technologist who helped to accelerate our product development efforts at Vunify. He is passionate about his work, and actively communicates with other developers and product managers throughout the product lifecycle. Chris understands how to balance often competing business and technology goals to achieve access for the organization. He is an asset for any organization.",
+    "name": "Jon Bradway"
+  }, {
+    "reference": "Chris was initially highly recommended to me by someone I trust. From initial contact, Chris has been a pleasure to work with. He is an extremely competent UI architect with a true passion for technology. He's conscientious, innovative, reliable, dedicated and genuinely cares about the team he works with and about building a quality product.",
+    "name": "Renata Nedzynski"
+  }, {
+    "reference": "Chris is a phenomenal UI Developer. I had the pleasure of hiring and working along side him at Travel Syndicate Technologies (TST). While at TST we built custom UI components using HTML, CSS, Javascript, and Backbone. In addition to our own work load of providing reusable components to 5 development teams and numerous customers, Chris also was the first one to roll up his sleeves and sit with developers that needed help with their CSS and Javascript. \n Chris is a 'go getter', we'd discuss a technology that looked promising on the web and a few days later he would frequently have a working prototype for evaluation. \n Given the opportunity to work with or hire Chris again I would do so in a heart beat.",
+    "name": "Adam Brons"
+  }, {
+    "reference": "It's always been a pleasure working with Chris on several projects at The Weather Channel. Chris is a great team player and excellent go to person to bounce off ideas. Not only a very innovative and keen developer, Chris is also an effective communicator. His ability to articulate and explain problems at hand really help streamline our projects and making them the successful ones. Chris brings a lot of value to our projects particularly with his well of knowledge in html/css. Chris certainly is a great asset to any team.",
+    "name": "Jeff Lu"
+  }, {
+    "reference": "Chris has an advanced understanding of HTML and JavaScript using jQuery that allows him to create any solution required. He can easily adapt to new libraries and APIs working with many design patterns. He also is very passionate about his work and solutions that represents itself in his final product. After working with many developers over 20 years Chris has shown to be at the top of his field.",
+    "name": "Tim Francis"
+  }, {
+    "reference": "Working with Chris is a very pleasant, fun and highly productive experience. Chris' genuine passion for top-edge technologies and intelligent solutions makes him not only extremely active within the company, but deeply engaged in everything that is going on in the project at hand. This \"eagle's eye\" trait makes him able to jump in to help on whatever issue there may be, applying the appropriate skill set. On top of that, he is a very communicative and eloquent person, which is a big plus when working with other engineers - an analytical mind is no use without being able to express ideas well. I'm happy to have him as a coworker.",
+    "name": "Guilherme Sad Gorgulho"
+  }, {
+    "reference": "Chris Keen is a real asset to any team. He is able to solve tough problems and never backs down from a challenge",
+    "name": "Anthony Pardo"
+  }, {
+    "reference": "I knew Chris years ago when he first started HTML/CSS/JavaScript development. I actually hired him in as a QA Analyst and he worked really hard to move to Developer. In short time, he became one of the best on the team. He moved on to bigger & better opportunities and it's always been great to hear about his continuous improvement. If I ever had a need for a Developer and Chris was looking, I'd try to snag him as quickly as I could.",
+    "name": "Eric Gisler"
+  }, {
+    "reference": "Chris was very detailed, goal oriented and produced high quality results for me on various projects. Chris is a great fit in any culture, and was liked by everyone in the office. He is considered an authority by many in the tech space and would make a great addition to any web team. A++ highly recommended. Will definitely work with again.",
+    "name": "Joey Taylor"
+  }]
 }

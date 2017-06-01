@@ -1,0 +1,32 @@
+{{#if resume.skills.length}}
+    <div id="skills">
+        <h2>Skills</h2>
+        <div class="row">
+            {{#each resume.skills}}
+                <div class="medium-6 large-3 columns">
+                    <div class="callout-card {{level}} radius">
+                        {{#if level}}
+                            <div class="card-label">
+                                <div class="label-text">{{level}}</div>
+                            </div>
+                        {{/if}}
+                        {{#if keywords.length}}
+                            <div class="callout-card-content">
+                                {{#if name}}
+                                    <h3 class="text-center name">
+                                        {{name}}
+                                    </h3>
+                                {{/if}}
+                                <ul class="keywords">
+                                    {{#each keywords}}
+                                        <li>{{.}}</li>
+                                    {{/each}}
+                                </ul>
+                        {{/if}}
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{/if}}

@@ -1,0 +1,2970 @@
+{
+  "columns": [{
+    "name": "Website",
+    "type": "Text",
+    "status": "Dimension",
+    "dimensionId": "website",
+    "fieldId": null
+  }, {
+    "name": "Rank",
+    "type": "Number",
+    "status": "Measure",
+    "dimensionId": null,
+    "fieldId": null
+  }, {
+    "name": "U.S. Market Share of Visits",
+    "type": "Number",
+    "status": "Measure",
+    "dimensionId": null,
+    "fieldId": null
+  }, {
+    "name": "Month",
+    "type": "Date",
+    "status": "Date",
+    "dimensionId": null,
+    "fieldId": null
+  }],
+  "data": ["Yelp", 10.0, 0.9, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.9, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.9, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.9, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.8, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.52, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.3, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.35, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.35, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.36, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.36, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.36, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Yelp", 10.0, 0.3, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "Yelp", 9.0, 0.3, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.74, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.74, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.71, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.77, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.74, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.68, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.65, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.63, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.73, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.77, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.74, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Tagged", 8.0, 0.67, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.72, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Tagged", 8.0, 0.69, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Tagged", 8.0, 0.56, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Tagged", 8.0, 0.55, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Tagged", 8.0, 0.54, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.73, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Tagged", 9.0, 0.5, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Tagged", 9.0, 0.51, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Tagged", 8.0, 0.51, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Tagged", 10.0, 0.39, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Tagged", 10.0, 0.48, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Tagged", 10.0, 0.47, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Tagged", 10.0, 0.48, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Tagged", 9.0, 0.47, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Tagged", 10.0, 0.4, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.74, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.7, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.7, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.8, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.8, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.8, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.83, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.91, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.92, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.76, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.98, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.87, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.84, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "Tagged", 6.0, 0.89, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.98, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "Tagged", 5.0, 1.01, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "Tagged", 5.0, 0.96, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.14, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.19, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.31, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.42, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.53, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.68, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.69, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.69, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.73, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.91, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.96, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.88, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.67, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.63, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.53, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.55, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Tagged", 4.0, 1.46, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "Tagged", 5.0, 1.22, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Tagged", 7.0, 1.06, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "Tagged", 7.0, 1.0, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "Tagged", 7.0, 0.88, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "Tagged", 10.0, 0.62, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "LinkedIn", 10.0, 0.24, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "LinkedIn", 10.0, 0.25, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "LinkedIn", 10.0, 0.25, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "LinkedIn", 10.0, 0.28, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "LinkedIn", 9.0, 0.36, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.38, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.4, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.4, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 9.0, 0.4, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.5, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.57, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.5, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.84, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.87, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.92, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.84, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 5.0, 1.2, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.89, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.88, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.49, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.38, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.17, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 5.0, 1.24, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 5.0, 1.22, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.13, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "LinkedIn", 9.0, 1.09, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 9.0, 1.19, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 1.4, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.5, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.5, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.4, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.34, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.37, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.37, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.33, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 1.33, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 10.0, 1.18, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 9.0, 1.25, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.78, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "LinkedIn", 4.0, 1.1, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 4.0, 1.2, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 4.0, 1.1, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.91, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.73, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.0, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 5.0, 1.04, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.89, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.82, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 1.03, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 5.0, 1.12, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.71, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.63, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.83, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.72, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.69, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 7.0, 0.83, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.72, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 8.0, 0.75, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.76, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.77, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.77, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.56, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.75, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.8, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.63, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.64, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "LinkedIn", 6.0, 0.63, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Instagram", 9.0, 0.45, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Instagram", 9.0, 0.45, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Instagram", 9.0, 0.44, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Instagram", 9.0, 0.37, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Instagram", 9.0, 0.52, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Instagram", 9.0, 0.4, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Instagram", 10.0, 0.43, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Instagram", 10.0, 0.36, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.53, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.53, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.59, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.81, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.53, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.49, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Instagram", 10.0, 1.14, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Instagram", 10.0, 1.23, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Instagram", 9.0, 1.2, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Instagram", 8.0, 1.32, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Instagram", 8.0, 1.33, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Instagram", 9.0, 1.29, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Instagram", 8.0, 1.32, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Instagram", 5.0, 1.7, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Instagram", 5.0, 1.7, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Instagram", 6.0, 1.6, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Instagram", 6.0, 1.6, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Instagram", 6.0, 1.47, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Instagram", 7.0, 1.34, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.85, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.76, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.84, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 1.04, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 1.09, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Instagram", 9.0, 1.3, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Instagram", 8.0, 1.19, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.58, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.62, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.75, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.75, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.53, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.54, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Instagram", 8.0, 0.57, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "MeetMe", 10.0, 0.39, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "MeetMe", 10.0, 0.38, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 0.85, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 0.85, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 0.92, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 0.98, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.22, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.08, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.25, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 10.0, 0.39, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 0.68, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 0.94, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.0, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.1, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.04, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 0.99, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 1.17, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 0.86, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 0.97, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 1.01, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.17, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.14, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.17, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.16, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.07, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.07, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Pinterest", 4.0, 1.22, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 0.93, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 0.96, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 0.96, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 0.97, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 0.88, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 1.18, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 1.01, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 9.0, 1.18, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 8.0, 1.4, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 1.12, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 1.05, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 1.1, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 1.06, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 7.0, 1.05, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.65, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.64, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.6, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.6, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.6, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 1.6, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Pinterest", 6.0, 1.6, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.54, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.5, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.47, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.52, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.5, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Pinterest", 5.0, 1.53, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.17, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Twitter", 4.0, 3.1, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.58, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.43, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.73, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.77, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.78, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Twitter", 4.0, 4.9, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Twitter", 4.0, 5.0, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Twitter", 4.0, 5.0, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Twitter", 4.0, 4.77, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Twitter", 4.0, 5.1, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.8, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 4.8, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Twitter", 4.0, 2.51, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Twitter", 4.0, 2.24, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Twitter", 4.0, 2.31, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Twitter", 4.0, 2.36, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Twitter", 5.0, 3.28, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Twitter", 4.0, 2.52, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.28, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.54, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 3.17, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 3.06, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.29, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.2, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.11, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.16, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.85, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.98, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.55, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.6, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.72, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.86, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.76, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.14, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.13, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.72, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.7, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.86, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.56, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.64, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.48, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.52, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.47, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.34, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.23, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.95, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.88, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.03, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.85, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.73, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.82, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.98, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 2.06, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.4, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.36, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.3, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "Twitter", 3.0, 1.2, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.1, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.1, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.0, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.02, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "Twitter", 5.0, 0.93, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "Twitter", 6.0, 0.96, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "Twitter", 5.0, 0.95, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "Twitter", 4.0, 1.08, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "Twitter", 4.0, 1.12, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "Twitter", 4.0, 1.17, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "Twitter", 6.0, 1.41, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.7, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.49, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.4, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.31, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Twitter", 6.0, 1.09, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Twitter", 6.0, 1.04, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.08, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.12, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Twitter", 4.0, 1.09, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.12, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Twitter", 5.0, 1.13, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "Twitter", 4.0, 1.07, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "Twitter", 4.0, 1.09, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "Twitter", 8.0, 0.66, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Twitter", 6.0, 1.21, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Mylife", 10.0, 0.32, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "Mylife", 9.0, 0.37, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "Mylife", 8.0, 0.38, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "Mylife", 8.0, 0.36, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "Mylife", 8.0, 0.39, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "Mylife", 8.0, 0.39, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "Mylife", 8.0, 0.38, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "Mylife", 8.0, 0.39, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "Mylife", 9.0, 0.4, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "Mylife", 9.0, 0.37, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "Mylife", 9.0, 0.3, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "Mylife", 9.0, 0.4, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "Mylife", 10.0, 0.34, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "Mylife", 9.0, 0.4, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "Mylife", 10.0, 0.26, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Mylife", 10.0, 0.33, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "MySpaceTV", 9.0, 0.51, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 7.0, 0.88, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 6.0, 0.94, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 7.0, 0.93, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 9.0, 0.76, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 8.0, 0.74, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 9.0, 0.65, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 10.0, 0.58, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "MySpaceTV", 5.0, 1.02, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 8.0, 0.85, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 8.0, 0.81, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 8.0, 0.78, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 9.0, 0.69, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 8.0, 0.77, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 8.0, 0.78, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 8.0, 0.77, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 9.0, 0.71, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 9.0, 0.61, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Member Directory", 9.0, 0.53, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.42, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.36, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.38, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.43, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.45, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.46, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.43, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.18, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.14, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.99, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.48, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.17, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.36, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.37, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 7.0, 0.98, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.1, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.03, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.2, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.1, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.2, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.2, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.07, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.1, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.03, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.01, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.87, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.88, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.92, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.91, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.0, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.96, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.9, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.94, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.05, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.9, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.88, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.1, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.18, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.25, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.24, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.27, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.37, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.42, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.04, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.02, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 0.99, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.0, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 0.93, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 0.95, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.0, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.84, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 0.88, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 0.95, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 0.97, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.86, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.79, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.88, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.98, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.99, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 0.94, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.17, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.02, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.18, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 4.0, 1.11, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.0, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.04, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.14, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.1, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.9, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.85, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 0.84, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.1, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.11, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.07, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.06, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.47, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 7.0, 1.11, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.1, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.45, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 7.0, 1.44, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.34, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.18, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.16, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 5.0, 1.41, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Yahoo! Answers", 8.0, 1.23, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.2, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Yahoo! Answers", 8.0, 1.13, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.1, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.2, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.1, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.28, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 8.0, 1.29, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.27, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 9.0, 1.22, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 8.0, 1.33, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 8.0, 1.28, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 7.0, 1.5, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Yahoo! Answers", 6.0, 1.46, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Google+", 8.0, 1.41, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Google+", 3.0, 4.06, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Google+", 9.0, 1.28, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Google+", 6.0, 1.45, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Google+", 10.0, 1.08, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Google+", 10.0, 1.22, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Google+", 10.0, 0.97, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Google+", 10.0, 0.9, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Google+", 10.0, 0.83, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Google+", 3.0, 2.82, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Google+", 3.0, 3.49, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Google+", 3.0, 3.59, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Google+", 3.0, 3.67, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Google+", 3.0, 4.01, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Google+", 4.0, 3.87, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.64, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.83, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Google+", 4.0, 2.48, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Google+", 4.0, 2.02, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.71, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.54, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.57, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.46, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.73, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Google+", 6.0, 0.69, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.73, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.78, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.77, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.79, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.78, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.97, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.53, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.49, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.91, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.93, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Google+", 7.0, 0.8, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Google+", 4.0, 1.29, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Google+", 5.0, 1.03, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Google+", 6.0, 0.83, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Google+", 5.0, 0.87, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Google+", 8.0, 0.58, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Google+", 8.0, 0.63, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Google+", 6.0, 0.85, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Google+", 8.0, 0.47, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Google+", 8.0, 0.55, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Google+", 9.0, 0.42, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "Google+", 9.0, 0.41, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "Google+", 9.0, 0.33, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "Classmates", 10.0, 0.34, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Classmates", 10.0, 0.36, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Classmates", 10.0, 0.45, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Classmates", 10.0, 0.39, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Classmates", 8.0, 0.54, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "Classmates", 9.0, 0.52, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "BlackPlanet", 10.0, 0.6, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Craig's List", 4.0, 2.93, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "Craig's List", 4.0, 2.81, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "Craig's List", 4.0, 2.91, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "Craig's List", 4.0, 2.97, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "Craig's List", 4.0, 2.75, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.45, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.47, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.43, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.45, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.42, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.41, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Reddit", 3.0, 4.36, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Reddit", 9.0, 0.76, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.68, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.67, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Reddit", 10.0, 0.67, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Reddit", 9.0, 0.66, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Reddit", 4.0, 4.43, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Reddit", 4.0, 4.55, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Reddit", 3.0, 4.87, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Reddit", 3.0, 5.2, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Reddit", 3.0, 5.4, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Reddit", 3.0, 5.5, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Reddit", 3.0, 5.3, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Reddit", 4.0, 4.35, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Reddit", 4.0, 4.26, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Reddit", 4.0, 4.15, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Reddit", 4.0, 3.65, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Reddit", 4.0, 3.92, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Reddit", 5.0, 1.81, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Reddit", 4.0, 3.51, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "iVillage", 8.0, 0.44, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "iVillage", 10.0, 0.3, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "iVillage", 9.0, 0.41, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "iVillage", 10.0, 0.3, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "Tumblr", 8.0, 0.51, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 8.0, 0.52, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.42, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.34, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.34, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.38, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.4, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.5, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.47, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.6, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.48, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.52, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 8.0, 0.48, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.48, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Tumblr", 7.0, 1.44, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 6.0, 1.43, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 7.0, 1.44, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 6.0, 1.46, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 6.0, 1.43, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 6.0, 1.37, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 8.0, 1.3, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Tumblr", 8.0, 1.3, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Tumblr", 8.0, 1.3, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Tumblr", 7.0, 1.4, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Tumblr", 7.0, 1.39, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 6.0, 1.37, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 6.0, 1.36, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.64, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.67, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.68, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.75, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.7, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.96, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 10.0, 0.85, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.5, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.53, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.55, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.65, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.71, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.55, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Tumblr", 9.0, 0.53, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Meebo", 6.0, 0.8, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "Meebo", 10.0, 0.48, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Meebo", 9.0, 0.65, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Meebo", 9.0, 0.61, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Meebo", 9.0, 0.54, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Meebo", 8.0, 0.63, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Meebo", 9.0, 0.62, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "Meebo", 10.0, 0.64, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "Meebo", 8.0, 0.66, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "Meebo", 8.0, 0.64, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Meebo", 9.0, 0.54, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "Meebo", 8.0, 0.56, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 9.95, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 8.84, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 9.62, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 9.18, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 10.39, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 10.63, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 10.67, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 10.11, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 7.22, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 9.88, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 10.12, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 7.51, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 7.37, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 7.39, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "YouTube", 3.0, 7.18, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "YouTube", 2.0, 15.35, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "YouTube", 3.0, 15.2, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "YouTube", 3.0, 14.61, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "YouTube", 3.0, 14.96, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "YouTube", 2.0, 15.32, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 16.77, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 16.02, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "YouTube", 3.0, 14.02, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 14.04, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 13.97, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 9.11, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 13.15, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 9.26, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "YouTube", 3.0, 13.16, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.9, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.6, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.22, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 18.87, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.5, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.2, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.5, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 16.71, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 16.61, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 16.73, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.28, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 18.32, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.78, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "YouTube", 2.0, 32.9, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.1, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.7, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 23.8, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.1, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 23.0, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.7, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.7, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.8, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.3, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 17.7, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.0, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 18.6, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "YouTube", 2.0, 22.4, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.9, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 22.4, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "YouTube", 2.0, 22.0, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.6, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.8, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "YouTube", 2.0, 22.2, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.9, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.6, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.5, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.2, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.8, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.4, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 17.2, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.6, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.8, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.6, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.8, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 25.4, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.21, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.7, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 23.6, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 23.8, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.3, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 22.2, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.2, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 22.9, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 24.7, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.7, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.97, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.3, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.8, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 21.2, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "YouTube", 2.0, 19.7, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.2, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.0, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.0, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.0, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.3, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.2, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.2, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.1, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "YouTube", 2.0, 20.3, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 9.0, 0.58, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 8.0, 0.61, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 9.0, 0.58, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 9.0, 0.55, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.84, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.82, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.88, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.62, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.77, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.69, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.83, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.8, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 7.0, 0.84, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 10.0, 0.51, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 10.0, 0.5, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 10.0, 0.5, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Profiles", 10.0, 0.52, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "MocoSpace", 10.0, 0.32, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 9.0, 0.36, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 10.0, 0.34, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 10.0, 0.33, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 9.0, 0.31, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 10.0, 0.28, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 9.0, 0.32, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 9.0, 0.33, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 10.0, 0.35, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "MocoSpace", 9.0, 0.33, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.64, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.66, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.63, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.54, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.6, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.51, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.48, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.4, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.5, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.5, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.46, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.43, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.5, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.4, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.61, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.66, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.61, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.66, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.6, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.62, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.65, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.81, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.65, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.74, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.83, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.98, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.8, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.82, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 6.0, 1.07, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 6.0, 1.1, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 6.0, 1.05, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 1.06, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "myYearbook", 6.0, 1.09, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 6.0, 1.14, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 6.0, 1.15, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 9.0, 0.74, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 9.0, 0.73, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 7.0, 0.87, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.78, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 5.0, 1.03, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 5.0, 1.15, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 5.0, 1.08, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 9.0, 0.66, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "myYearbook", 10.0, 0.39, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.41, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.4, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 8.0, 0.4, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "myYearbook", 9.0, 0.4, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.58, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.56, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 10.0, 0.45, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 10.0, 0.46, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 10.0, 0.49, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.53, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.51, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.55, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 10.0, 0.53, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Windows Live Home", 10.0, 0.51, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Windows Live Home", 10.0, 0.54, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Windows Live Home", 8.0, 0.46, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.46, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.5, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "Windows Live Home", 9.0, 0.53, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "Windows Live Home", 8.0, 0.38, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "Yahoo! Groups", 10.0, 0.46, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 8.0, 0.98, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 0.92, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 9.0, 0.56, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 8.0, 0.62, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 1.0, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 8.0, 0.99, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 1.03, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 1.06, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 1.1, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 1.02, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 0.96, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 1.07, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 1.13, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 1.0, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 0.87, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 0.89, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 0.94, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 7.0, 0.92, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "Yahoo! Groups", 6.0, 0.98, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 41.5, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 41.13, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 40.69, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 41.28, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 40.88, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 44.33, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 44.44, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 39.37, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 43.71, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 40.95, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 42.53, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "MySpace", 1.0, 37.47, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }, "MySpace", 1.0, 32.69, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "MySpace", 1.0, 34.4, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 25.83, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "MySpace", 1.0, 32.03, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 29.01, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "MySpace", 1.0, 30.55, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 23.65, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 21.52, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 20.53, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "MySpace", 3.0, 13.12, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 11.79, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 11.54, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "MySpace", 2.0, 15.47, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 14.34, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "MySpace", 2.0, 18.97, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 19.13, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "MySpace", 2.0, 17.31, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 10.19, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 8.27, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 6.44, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 2.82, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 5.53, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 4.07, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "MySpace", 3.0, 1.4, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "MySpace", 3.0, 1.2, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "MySpace", 3.0, 2.18, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "MySpace", 3.0, 1.67, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "MySpace", 6.0, 0.66, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "MySpace", 5.0, 0.8, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "MySpace", 5.0, 0.9, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "MySpace", 5.0, 1.1, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "MySpace", 7.0, 0.61, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "MySpace", 7.0, 0.53, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "MySpace", 7.0, 0.47, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "MySpace", 7.0, 0.45, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "MySpace", 8.0, 0.43, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "MySpace", 9.0, 0.39, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "MySpace", 9.0, 0.39, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "MySpace", 9.0, 0.41, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "MySpace", 9.0, 0.46, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "MySpace", 9.0, 0.4, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "MySpace", 9.0, 0.39, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "CafeMom", 10.0, 0.3, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.51, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.49, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.74, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.56, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.67, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.61, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "Bebo", 10.0, 0.65, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "Club Penguin", 10.0, 0.3, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "Club Penguin", 10.0, 0.27, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "Club Penguin", 10.0, 0.3, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "Club Penguin", 9.0, 0.33, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "Club Penguin", 10.0, 0.29, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "IMVU", 10.0, 0.49, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "IMVU", 10.0, 0.52, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "IMVU", 10.0, 0.58, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 58.5, {
+    "value": "05/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 44.3, {
+    "value": "06/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 59.7, {
+    "value": "03/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 58.5, {
+    "value": "04/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 59.1, {
+    "value": "02/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.9, {
+    "value": "01/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 58.35, {
+    "value": "12/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 59.6, {
+    "value": "09/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 59.6, {
+    "value": "08/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 60.8, {
+    "value": "10/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 56.5, {
+    "value": "12/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 58.7, {
+    "value": "11/01/2014",
+    "frequency": "M"
+  }, "Facebook", 1.0, 49.6, {
+    "value": "02/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 55.2, {
+    "value": "01/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 53.4, {
+    "value": "03/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 48.4, {
+    "value": "04/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 47.7, {
+    "value": "05/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.6, {
+    "value": "07/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 46.5, {
+    "value": "06/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.8, {
+    "value": "09/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.6, {
+    "value": "08/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 43.9, {
+    "value": "02/01/2016",
+    "frequency": "M"
+  }, "Facebook", 1.0, 44.3, {
+    "value": "01/01/2016",
+    "frequency": "M"
+  }, "Facebook", 1.0, 43.5, {
+    "value": "03/01/2016",
+    "frequency": "M"
+  }, "Facebook", 1.0, 43.4, {
+    "value": "04/01/2016",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.6, {
+    "value": "12/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.3, {
+    "value": "11/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.4, {
+    "value": "10/01/2015",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.7, {
+    "value": "06/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.9, {
+    "value": "05/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.0, {
+    "value": "04/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.2, {
+    "value": "03/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.2, {
+    "value": "07/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.4, {
+    "value": "09/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.6, {
+    "value": "08/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.9, {
+    "value": "02/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.8, {
+    "value": "01/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.3, {
+    "value": "12/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 64.5, {
+    "value": "10/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.8, {
+    "value": "11/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 65.2, {
+    "value": "09/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 64.51, {
+    "value": "08/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 58.5, {
+    "value": "03/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.1, {
+    "value": "04/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 60.1, {
+    "value": "02/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 61.5, {
+    "value": "12/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 61.8, {
+    "value": "01/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 59.5, {
+    "value": "11/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.6, {
+    "value": "10/01/2012",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.0, {
+    "value": "09/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.2, {
+    "value": "11/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.9, {
+    "value": "10/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 55.8, {
+    "value": "08/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 56.6, {
+    "value": "07/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.3, {
+    "value": "05/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 57.1, {
+    "value": "06/01/2013",
+    "frequency": "M"
+  }, "Facebook", 1.0, 62.4, {
+    "value": "12/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 61.73, {
+    "value": "11/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 61.0, {
+    "value": "10/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 61.47, {
+    "value": "09/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 59.23, {
+    "value": "08/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 54.96, {
+    "value": "06/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 56.46, {
+    "value": "07/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 64.2, {
+    "value": "03/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.58, {
+    "value": "01/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 64.32, {
+    "value": "02/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 64.4, {
+    "value": "04/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.5, {
+    "value": "05/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.9, {
+    "value": "06/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 63.4, {
+    "value": "07/01/2011",
+    "frequency": "M"
+  }, "Facebook", 1.0, 45.8, {
+    "value": "12/01/2009",
+    "frequency": "M"
+  }, "Facebook", 1.0, 46.29, {
+    "value": "11/01/2009",
+    "frequency": "M"
+  }, "Facebook", 1.0, 49.62, {
+    "value": "02/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 48.12, {
+    "value": "01/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 54.9, {
+    "value": "05/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 51.61, {
+    "value": "03/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 53.57, {
+    "value": "04/01/2010",
+    "frequency": "M"
+  }, "Facebook", 1.0, 43.84, {
+    "value": "10/01/2009",
+    "frequency": "M"
+  }, "Facebook", 1.0, 41.57, {
+    "value": "09/01/2009",
+    "frequency": "M"
+  }, "Facebook", 1.0, 39.53, {
+    "value": "08/01/2009",
+    "frequency": "M"
+  }, "Facebook", 2.0, 29.31, {
+    "value": "05/01/2009",
+    "frequency": "M"
+  }, "Facebook", 2.0, 27.05, {
+    "value": "04/01/2009",
+    "frequency": "M"
+  }, "Facebook", 1.0, 32.19, {
+    "value": "06/01/2009",
+    "frequency": "M"
+  }, "Facebook", 1.0, 35.62, {
+    "value": "07/01/2009",
+    "frequency": "M"
+  }, "Facebook", 2.0, 8.29, {
+    "value": "03/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 8.16, {
+    "value": "02/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 8.28, {
+    "value": "04/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 9.09, {
+    "value": "05/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 9.61, {
+    "value": "06/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 12.69, {
+    "value": "07/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 13.5, {
+    "value": "08/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 17.54, {
+    "value": "12/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 13.54, {
+    "value": "10/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 15.32, {
+    "value": "11/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 13.04, {
+    "value": "09/01/2008",
+    "frequency": "M"
+  }, "Facebook", 2.0, 23.73, {
+    "value": "02/01/2009",
+    "frequency": "M"
+  }, "Facebook", 2.0, 26.85, {
+    "value": "03/01/2009",
+    "frequency": "M"
+  }, "Facebook", 2.0, 20.45, {
+    "value": "01/01/2009",
+    "frequency": "M"
+  }],
+  "filter": [],
+  "datasetName": "Top Social Networking Websites & Forums"
+}
