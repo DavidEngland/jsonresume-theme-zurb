@@ -41,18 +41,16 @@
               <div class="row">
                 {{#if summary}}
                   <div class="small-12 medium-12 large-12 columns">
-                    <div class="lead summary">{{summary}}</div>
+                    <p class="summary">{{summary}}</p>
                   </div>
                 {{/if}}
               </div>
               {{#if highlights.length}}
                 <div class="row">
                   <div class="small-12 medium-12 large-12 columns">
-                    <ul class="highlights">
+                    <ul class="csv highlights">
                       {{#each highlights}}
-                        <li>
-                          {{#markdown}}{{.}}{{/markdown}}
-                        </li>
+                        <li>{{.}}</li>
                       {{/each}}
                     </ul>
                   </div>
@@ -64,5 +62,4 @@
       </div>
     {{/each}}
   </div>
-
 {{/if}}

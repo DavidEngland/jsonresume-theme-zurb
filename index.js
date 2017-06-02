@@ -1,6 +1,7 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
 var URL = require("url");
+var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 var nets = ["500px", "8tracks", "airbnb", "alliance", "amazon", "amplement", "android", "angellist", "apple", "appnet", "baidu", "bandcamp", "battlenet", "beam", "bebee", "bebo", "behance", "blizzard", "blogger", "buffer", "chrome", "coderwall", "curse", "dailymotion", "deezer", "delicious", "deviantart", "diablo", "digg", "discord", "disqus", "douban", "draugiem", "dribbble", "drupal", "ebay", "ello", "endomondo", "envato", "etsy", "facebook", "feedburner", "filmweb", "firefox", "flattr", "flickr", "formulr", "forrst", "foursquare", "friendfeed", "github", "goodreads", "google", "googlegroups", "googlephotos", "googleplus", "googlescholar", "grooveshark", "hackerrank", "hearthstone", "hellocoton", "hereos", "hitbox", "horde", "houzz", "icq", "identica", "imdb", "instagram", "issuu", "istock", "itunes", "keybase", "lanyrd", "lastfm", "line", "linkedin", "livejournal", "lyft", "macos", "mail", "medium", "meetup", "mixcloud", "modelmayhem", "mumble", "myspace", "newsvine", "nintendo", "npm", "odnoklassniki", "openid", "opera", "outlook", "overwatch", "pandora", "patreon", "paypal", "periscope", "persona", "pinterest", "play", "player", "playstation", "pocket", "qq", "quora", "raidcall", "ravelry", "reddit", "renren", "researchgate", "residentadvisor", "reverbnation", "rss", "sharethis", "skype", "slideshare", "smugmug", "snapchat", "songkick", "soundcloud", "spotify", "stackexchange", "stackoverflow", "starcraft", "stayfriends", "steam", "storehouse", "strava", "streamjar", "stumbleupon", "swarm", "teamspeak", "teamviewer", "technorati", "telegram", "tripadvisor", "tripit", "triplej", "tumblr", "twitch", "twitter", "uber", "ventrilo", "viadeo", "viber", "viewbug", "vimeo", "vine", "vkontakte", "warcraft", "wechat", "weibo", "whatsapp", "wikipedia", "windows", "wordpress", "wykop", "xbox", "xing", "yahoo", "yammer", "yandex", "yelp", "younow", "youtube", "zapier", "zerply", "zomato", "zynga", "spreadshirt", "trello", "gamejolt", "tunein", "bloglovin", "gamewisp", "messenger"];
 
 module.exports = {
@@ -29,7 +30,6 @@ Handlebars.registerHelper('paragraphSplit', function(plaintext) {
     }
     i += 1;
   }
-
   return new Handlebars.SafeString(output);
 });
 
@@ -39,18 +39,26 @@ Handlebars.registerHelper('toLower', function(str) {
   }
 });
 
-Handlebars.registerHelper('santify', function(net) {
-  var str = URL.parse(net).hostname.toLowerCase();
+Handlebars.registerHelper('santify', function(url, network) {
+  // first parse the url to see if can match to socion icons.
+  var str = URL.parse(url).hostname.toLowerCase();
   var parts = str.split('.');
-  //console.log(parts);
   str = (parts.length == 2) ? parts[0] : parts[1];
-
+  // Check for googleplus, may have to add others ...
+  if (parts[0]=='plus' && parts[1] =='google') {
+    return parts[1]+parts[0];
+  }
   for (var i = 0; i < nets.length; i++) {
     if (nets[i].indexOf(str) > -1) {
       return nets[i];
     }
   }
-  return "rss";
+  // url didn't parse to known icon, go with network without spaces or dash
+  if (network && typeof network === 'string') {
+    return network.split(' ').join('').split('-').join('').toLowerCase();
+  } else {
+    return "rss";
+  }
 });
 
 Handlebars.registerHelper('decodeURI', function(str) {
@@ -74,7 +82,6 @@ Handlebars.registerHelper('prettifyDate', function(d) {
   if (isNaN(date)) {
     return d
   } else {
-    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
     var month = new Date(date).getMonth();
     var year = new Date(date).getFullYear();
     return months[month] + ' ' + year;

@@ -10,16 +10,11 @@
             </span>
           {{/if}}
           {{#if keywords.length}}
-          {{#if name}}
-            <span class="name">
-              :&nbsp;&nbsp;
-            </span>
-          {{/if}}
-            <span class="keywords">
+            <ul class="csv keywords">
               {{#each keywords}}
-                {{.}}
+                <li>{{.}}</li>
               {{/each}}
-            </span>
+            </ul>
           {{/if}}
         </button>
       {{/each}}

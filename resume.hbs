@@ -83,7 +83,7 @@
                 <div id="profiles" class="rounded-social-buttons">
                   {{#each profiles}}
                     {{#if network}}
-                      <a href="{{url}}" itemprop="sameAs" class="social-button {{santify url}}" target="_blank"><span class="socicon socicon-{{santify url}}"></span><span></span></a>
+                      <a href="{{url}}" itemprop="sameAs" class="social-button {{santify url network}}" target="_blank"><span class="socicon socicon-{{santify url network}}"></span><span></span></a>
                     {{/if}}
                   {{/each}}
                 </div>
@@ -363,9 +363,7 @@
             </div>
           {{/each}}
         </div>
-
       {{/if}}
-
       {{#if resume.languages.length}}
         <div id="languages" class="row">
           <h2>Languages</h2>
@@ -492,7 +490,6 @@
       }
     });
   });
-
   </script>
 </body>
 

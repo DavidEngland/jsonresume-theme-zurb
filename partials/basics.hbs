@@ -1,5 +1,5 @@
 {{#resume.basics}}
-  <div class="media-object">
+  <div id="info" class="media-object stack-for-small">
     {{#if picture}}
       <div class="media-object-section middle">
         <div class="thumbnail">
@@ -9,21 +9,24 @@
     {{/if}}
     <div class="media-object-section">
       <h1 itemprop="name">{{name}}</h1>
-      <h2 itemprop="description">{{label}}</h2>
+      <h2 class="subheader" itemprop="description">{{label}}</h2>
       <ul class="bar">
         {{#if phone}}
           <li class="phone">
-            <a href="tel://{{phone}}" class="link-disguise info" itemprop="telephone">&nbsp;{{phone}}</a>
+            &nbsp;
+            <a href="tel://{{phone}}" class="link-disguise info" itemprop="telephone">{{phone}}</a>
           </li>
         {{/if}}
         {{#if website}}
           <li class="website">
-            <a href="{{website}}" target="_blank" itemprop="url">&nbsp;{{website}}</a>
+            &nbsp;
+            <a href="{{website}}" target="_blank" itemprop="url">{{website}}</a>
           </li>
         {{/if}}
         {{#if email}}
           <li class="email">
-            <a href="mailto:{{email}}" class="link-disguise info" itemprop="email">&nbsp;{{email}}</a>
+            &nbsp;
+            <a href="mailto:{{email}}" class="link-disguise info" itemprop="email">{{email}}</a>
           </li>
         {{/if}}
       </ul>
@@ -52,14 +55,16 @@
         </div>
       {{/location}}
       {{#if profiles.length}}
-        <div class="row">
-          <div id="profiles" class="rounded-social-buttons">
-            {{#each profiles}}
-              {{#if network}}
-                <a href="{{url}}" itemprop="sameAs" class="social-button {{toLower network}}" target="_blank"><span class="socicon socicon-{{toLower network}}"></span><span></span></a>
-              {{/if}}
-            {{/each}}
-          </div>
+        <div id="profiles" class="rounded-social-buttons">
+          {{#each profiles}}
+            {{#if network}}
+              <a href="{{url}}" itemprop="sameAs" class="social-button {{santify url network}}"
+                target="_blank">
+                <span class="socicon socicon-{{santify url network}}"></span>
+                <span></span>
+              </a>
+            {{/if}}
+          {{/each}}
         </div>
       {{/if}}
     </div>
