@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/DavidEngland/jsonresume-theme-zurb",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
